@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Cloudflare 1.1.1.1 Incident on July 14, 2025",
+    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
+    "date": "Wed, 16 Jul 2025 03:44:39 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:47.850083",
+    "summary": "On July 14, 2025, Cloudflare's 1.1.1.1 Resolver service experienced a global outage for about an hour due to a misconfiguration of legacy systems used to maintain the infrastructure. This misconfiguration led to the inadvertent withdrawal of the 1.1.1.1 Resolver prefixes, causing DNS traffic to drop globally, triggering internal alerts, and necessitating a fix deployment to restore service. Cloudflare is implementing steps to mitigate similar incidents in the future by deprecating legacy systems and improving deployment methodologies for increased stability."
+  },
+  {
+    "title": "Six Years of Gemini",
+    "url": "https://geminiprotocol.net/news/2025_06_20.gmi",
+    "date": "Wed, 16 Jul 2025 02:37:37 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:48.400059",
+    "summary": "The article celebrates the sixth anniversary of Project Gemini's public announcement and reflects on the quiet year at geminiprotocol.net. The author acknowledges their own recent inactivity but highlights the ongoing contributions from the community in terms of patches, translations, and maintaining various services. Despite discontinuing the reporting of Geminispace size statistics, the author notes that most numbers have seen a slight increase."
+  },
+  {
+    "title": "Tilck: A Tiny Linux-Compatible Kernel",
+    "url": "https://github.com/vvaltchev/tilck",
+    "date": "Wed, 16 Jul 2025 03:50:00 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:49.338860",
+    "summary": "Tilck is an educational monolithic kernel that aims to be Linux-compatible at a binary level, running on i686 and RISCV64 architectures. It provides a playground for kernel development with a focus on real-world applications, supporting mainstream Linux programs like BusyBox and potentially filling the gap between Embedded Linux and real-time operating systems. Tilck emphasizes simplicity, reliability on real hardware, and a user-friendly development experience, making it accessible for both experienced engineers and beginners."
+  },
+  {
+    "title": "GPUHammer: Rowhammer attacks on GPU memories are practical",
+    "url": "https://gpuhammer.com/",
+    "date": "Wed, 16 Jul 2025 00:05:45 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:50.450898",
+    "summary": "The article discusses GPUHammer, the first attack to demonstrate Rowhammer bit flips on GPU memories, specifically on an NVIDIA A6000 GPU with GDDR6 memory. The attack shows how bit flips induced by GPUs can tamper with data and degrade machine learning model accuracy, highlighting the need to assess the vulnerability of GPU memories to Rowhammer attacks and consider mitigation strategies such as enabling Error Correction Codes (ECC) despite potential performance impacts."
+  },
+  {
+    "title": "Show HN: Shoggoth Mini – A soft tentacle robot powered by GPT-4o and RL",
+    "url": "https://www.matthieulc.com/posts/shoggoth-mini",
+    "date": "Tue, 15 Jul 2025 15:46:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:51.184528",
+    "summary": "The article discusses the importance of expressiveness in robotics for natural interactions, highlighting the development of Shoggoth Mini as an exploration of embodiment and intent communication. The design process involved creating a robotic tentacle system that could be controlled intuitively through a 2D mapping, incorporating elements of reinforcement learning and expressive behaviors to enhance the robot's perceived aliveness."
+  },
+  {
+    "title": "Reflections on OpenAI",
+    "url": "https://calv.info/openai-reflections",
+    "date": "Tue, 15 Jul 2025 16:49:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:51.901635",
+    "summary": "The author reflects on their experience working at OpenAI, highlighting the rapid growth, bottoms-up culture, meritocracy, and intense focus on innovation and product development, particularly noting their involvement in the launch of the Codex coding agent. They emphasize the ambitious and secretive nature of OpenAI, the importance of distributed AI benefits, the organization's pace of work, and the significant impact of the Codex launch on their career."
+  },
+  {
+    "title": "NIST ion clock sets new record for most accurate clock",
+    "url": "https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world",
+    "date": "Tue, 15 Jul 2025 15:56:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:52.282583",
+    "summary": "Researchers at the National Institute of Standards and Technology (NIST) have developed the most accurate clock in the world based on a trapped aluminum ion. This clock, with 19 decimal places of accuracy, is 41% more accurate and 2.6 times more stable than any previous record holder, paving the way for redefining the second and advancing physics and technology. The clock's design improvements involved addressing challenges in trap design, vacuum system, and laser stability, with the aluminum ion clock contributing to advancements in quantum physics and potentially exploring changes in fundamental constants of nature."
+  },
+  {
+    "title": "Where's Firefox going next?",
+    "url": "https://connect.mozilla.org/t5/discussions/where-s-firefox-going-next-you-tell-us/m-p/100698#M39094",
+    "date": "Tue, 15 Jul 2025 21:03:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:54.587298",
+    "summary": "The article on Mozilla Connect discusses Firefox users' feedback and suggestions for improving the browser, including requests for features like split view, improved Android interface flexibility, faster page loading, and resource consumption reduction. Users also express concerns about performance issues, browser memory usage, security improvements, and the need for better communication and messaging from the Firefox team. Overall, the community emphasizes the importance of optimizing performance, enhancing features, and refining the design of Firefox to meet user needs and expectations."
+  },
+  {
+    "title": "The FIPS 140-3 Go Cryptographic Module",
+    "url": "https://go.dev/blog/fips140",
+    "date": "Tue, 15 Jul 2025 20:42:49 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-16T11:44:58.117097",
+    "summary": "Go has introduced native FIPS 140 support built into the standard library, making it easier and more secure for users to comply with FIPS 140 requirements. The FIPS 140-3 validated Go Cryptographic Module enhances security by integrating transparently into Go applications, offering compliance with approved algorithms and operating environments. This module surpasses the previous Go+BoringCrypto solution, providing a better compliance profile and access to a wider range of algorithms for FIPS 140-3 restricted applications."
+  }
+]

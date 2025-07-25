@@ -1,74 +1,677 @@
 [
   {
-    "title": "Cloudflare 1.1.1.1 Incident on July 14, 2025",
-    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
-    "date": "Wed, 16 Jul 2025 03:44:39 +0000",
+    "title": "When Root Meets Immutable: OpenBSD Chflags vs. Log Tampering",
+    "url": "https://rsadowski.de/posts/2025/openbsd-immutable-system-logs/",
+    "date": "Fri, 18 Jul 2025 08:36:47 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:47.850083",
-    "summary": "On July 14, 2025, Cloudflare's 1.1.1.1 Resolver service experienced a global outage for about an hour due to a misconfiguration of legacy systems used to maintain the infrastructure. This misconfiguration led to the inadvertent withdrawal of the 1.1.1.1 Resolver prefixes, causing DNS traffic to drop globally, triggering internal alerts, and necessitating a fix deployment to restore service. Cloudflare is implementing steps to mitigate similar incidents in the future by deprecating legacy systems and improving deployment methodologies for increased stability."
+    "timestamp": "2025-07-18T15:36:54.548051",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "Six Years of Gemini",
-    "url": "https://geminiprotocol.net/news/2025_06_20.gmi",
-    "date": "Wed, 16 Jul 2025 02:37:37 +0000",
+    "title": "Fully homomorphic encryption and the dawn of a private internet",
+    "url": "https://bozmen.io/fhe",
+    "date": "Fri, 18 Jul 2025 03:49:50 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:48.400059",
-    "summary": "The article celebrates the sixth anniversary of Project Gemini's public announcement and reflects on the quiet year at geminiprotocol.net. The author acknowledges their own recent inactivity but highlights the ongoing contributions from the community in terms of patches, translations, and maintaining various services. Despite discontinuing the reporting of Geminispace size statistics, the author notes that most numbers have seen a slight increase."
+    "timestamp": "2025-07-18T15:36:57.103739",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "Tilck: A Tiny Linux-Compatible Kernel",
-    "url": "https://github.com/vvaltchev/tilck",
-    "date": "Wed, 16 Jul 2025 03:50:00 +0000",
+    "title": "NIH is cheaper than the wrong dependency",
+    "url": "https://lewiscampbell.tech/blog/250718.html",
+    "date": "Fri, 18 Jul 2025 02:27:43 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:49.338860",
-    "summary": "Tilck is an educational monolithic kernel that aims to be Linux-compatible at a binary level, running on i686 and RISCV64 architectures. It provides a playground for kernel development with a focus on real-world applications, supporting mainstream Linux programs like BusyBox and potentially filling the gap between Embedded Linux and real-time operating systems. Tilck emphasizes simplicity, reliability on real hardware, and a user-friendly development experience, making it accessible for both experienced engineers and beginners."
+    "timestamp": "2025-07-18T15:36:59.166125",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "GPUHammer: Rowhammer attacks on GPU memories are practical",
-    "url": "https://gpuhammer.com/",
-    "date": "Wed, 16 Jul 2025 00:05:45 +0000",
+    "title": "ChatGPT agent: bridging research and action",
+    "url": "https://openai.com/index/introducing-chatgpt-agent/",
+    "date": "Thu, 17 Jul 2025 17:01:47 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:50.450898",
-    "summary": "The article discusses GPUHammer, the first attack to demonstrate Rowhammer bit flips on GPU memories, specifically on an NVIDIA A6000 GPU with GDDR6 memory. The attack shows how bit flips induced by GPUs can tamper with data and degrade machine learning model accuracy, highlighting the need to assess the vulnerability of GPU memories to Rowhammer attacks and consider mitigation strategies such as enabling Error Correction Codes (ECC) despite potential performance impacts."
+    "timestamp": "2025-07-18T15:37:02.172458",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "Show HN: Shoggoth Mini – A soft tentacle robot powered by GPT-4o and RL",
-    "url": "https://www.matthieulc.com/posts/shoggoth-mini",
-    "date": "Tue, 15 Jul 2025 15:46:41 +0000",
+    "title": "Linux and Secure Boot certificate expiration",
+    "url": "https://lwn.net/SubscriberLink/1029767/08f1d17c020e8292/",
+    "date": "Fri, 18 Jul 2025 03:53:31 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:51.184528",
-    "summary": "The article discusses the importance of expressiveness in robotics for natural interactions, highlighting the development of Shoggoth Mini as an exploration of embodiment and intent communication. The design process involved creating a robotic tentacle system that could be controlled intuitively through a 2D mapping, incorporating elements of reinforcement learning and expressive behaviors to enhance the robot's perceived aliveness."
+    "timestamp": "2025-07-18T15:37:02.789230",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "Reflections on OpenAI",
-    "url": "https://calv.info/openai-reflections",
-    "date": "Tue, 15 Jul 2025 16:49:06 +0000",
+    "title": "My experience with Claude Code after two weeks of adventures",
+    "url": "https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/",
+    "date": "Thu, 17 Jul 2025 18:27:24 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:51.901635",
-    "summary": "The author reflects on their experience working at OpenAI, highlighting the rapid growth, bottoms-up culture, meritocracy, and intense focus on innovation and product development, particularly noting their involvement in the launch of the Codex coding agent. They emphasize the ambitious and secretive nature of OpenAI, the importance of distributed AI benefits, the organization's pace of work, and the significant impact of the Codex launch on their career."
+    "timestamp": "2025-07-18T15:37:04.495096",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "NIST ion clock sets new record for most accurate clock",
-    "url": "https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world",
-    "date": "Tue, 15 Jul 2025 15:56:47 +0000",
+    "title": "My favorite use-case for AI is writing logs",
+    "url": "https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/",
+    "date": "Thu, 17 Jul 2025 23:38:48 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:52.282583",
-    "summary": "Researchers at the National Institute of Standards and Technology (NIST) have developed the most accurate clock in the world based on a trapped aluminum ion. This clock, with 19 decimal places of accuracy, is 41% more accurate and 2.6 times more stable than any previous record holder, paving the way for redefining the second and advancing physics and technology. The clock's design improvements involved addressing challenges in trap design, vacuum system, and laser stability, with the aluminum ion clock contributing to advancements in quantum physics and potentially exploring changes in fundamental constants of nature."
+    "timestamp": "2025-07-18T15:37:06.511917",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "Where's Firefox going next?",
-    "url": "https://connect.mozilla.org/t5/discussions/where-s-firefox-going-next-you-tell-us/m-p/100698#M39094",
-    "date": "Tue, 15 Jul 2025 21:03:50 +0000",
+    "title": "Arva AI (YC S24) Is Hiring an AI Research Engineer (London, UK)",
+    "url": "https://www.arva.ai/careers/ai-research-engineer",
+    "date": "Fri, 18 Jul 2025 08:05:26 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:54.587298",
-    "summary": "The article on Mozilla Connect discusses Firefox users' feedback and suggestions for improving the browser, including requests for features like split view, improved Android interface flexibility, faster page loading, and resource consumption reduction. Users also express concerns about performance issues, browser memory usage, security improvements, and the need for better communication and messaging from the Firefox team. Overall, the community emphasizes the importance of optimizing performance, enhancing features, and refining the design of Firefox to meet user needs and expectations."
+    "timestamp": "2025-07-18T15:37:09.788831",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
   },
   {
-    "title": "The FIPS 140-3 Go Cryptographic Module",
-    "url": "https://go.dev/blog/fips140",
-    "date": "Tue, 15 Jul 2025 20:42:49 +0000",
+    "title": "When Root Meets Immutable: OpenBSD Chflags vs. Log Tampering",
+    "url": "https://rsadowski.de/posts/2025/openbsd-immutable-system-logs/",
+    "date": "Fri, 18 Jul 2025 08:36:47 +0000",
     "author": "Unknown",
-    "timestamp": "2025-07-16T11:44:58.117097",
-    "summary": "Go has introduced native FIPS 140 support built into the standard library, making it easier and more secure for users to comply with FIPS 140 requirements. The FIPS 140-3 validated Go Cryptographic Module enhances security by integrating transparently into Go applications, offering compliance with approved algorithms and operating environments. This module surpasses the previous Go+BoringCrypto solution, providing a better compliance profile and access to a wider range of algorithms for FIPS 140-3 restricted applications."
+    "timestamp": "2025-07-18T15:54:21.647411",
+    "summary": "The article discusses the importance of ensuring the integrity of system logs for ISO 27001 compliance by using OpenBSD's immutable flags feature. It explains how to leverage OpenBSD's chflags command to protect log files from tampering and unauthorized access, ultimately creating a production-ready setup that automates the management of immutable log files during the boot process. This implementation provides a secure solution for maintaining the integrity of audit trails without the need for additional software or network dependencies.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fully homomorphic encryption and the dawn of a private internet",
+    "url": "https://bozmen.io/fhe",
+    "date": "Fri, 18 Jul 2025 03:49:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:22.574410",
+    "summary": "The article discusses Fully Homomorphic Encryption (FHE), a technology that allows computations to be performed on encrypted data without needing to decrypt it first. While FHE is not yet practical due to high computational overhead, advancements are being made to improve its speed and efficiency, potentially revolutionizing privacy and security in cloud computing and other applications. The future implications suggest that as FHE becomes more accessible, it could lead to a shift towards encrypted internet computations, enhancing privacy by default.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "NIH is cheaper than the wrong dependency",
+    "url": "https://lewiscampbell.tech/blog/250718.html",
+    "date": "Fri, 18 Jul 2025 02:27:43 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:24.528833",
+    "summary": "The article challenges the common belief that dependencies in coding are always beneficial, highlighting the costs and risks associated with using large, complex dependencies. It introduces TigerBeetle as an example of a project with a \"zero dependencies\" policy to avoid supply chain attacks and performance issues. The author emphasizes the importance of evaluating dependencies critically and choosing them wisely based on a Framework for Evaluating Dependencies that considers various criteria beyond just ergonomics.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "ChatGPT agent: bridging research and action",
+    "url": "https://openai.com/index/introducing-chatgpt-agent/",
+    "date": "Thu, 17 Jul 2025 17:01:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:27.642357",
+    "summary": "The article on OpenAI's website introduces the ChatGPT agent, a conversational AI model designed to engage in natural and open-ended chats with users. ChatGPT is built on the GPT-3 architecture and is trained to generate human-like responses in real-time conversations, making it a versatile tool for various chatbot applications.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My experience with Claude Code after two weeks of adventures",
+    "url": "https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/",
+    "date": "Thu, 17 Jul 2025 18:27:24 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:27.917946",
+    "summary": "The author shares their experience using Claude Code after two weeks of usage, mentioning their transition from Cursor due to rate limiting issues. They discuss their workflow, experiments with different models like Sonnet 4 and Opus 4, and highlight features like subagents and search functionalities. Overall, they find Claude Code CLI-based nature encourages exploration and rewards curiosity, appealing to power users despite having a steeper learning curve compared to Cursor.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My favorite use-case for AI is writing logs",
+    "url": "https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/",
+    "date": "Thu, 17 Jul 2025 23:38:48 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:29.680751",
+    "summary": "The article discusses the implementation of a Full Line Code Completion feature in JetBrains' PyCharm IDE, powered by a model trained in PyTorch and quantized for efficient serving. This feature enhances developer productivity by automatically generating concise and contextually relevant code completion suggestions for logging and debugging, reducing cognitive overhead and improving workflow efficiency. The model's local inference capability, combined with optimizations for speed and memory footprint, showcases a shift towards specialized, on-device AI models tailored for specific programming tasks rather than relying on large, general-purpose language models.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Arva AI (YC S24) Is Hiring an AI Research Engineer (London, UK)",
+    "url": "https://www.arva.ai/careers/ai-research-engineer",
+    "date": "Fri, 18 Jul 2025 08:05:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:54:34.333263",
+    "summary": "Arva AI is seeking an AI Research Engineer to join their London-based team, revolutionizing financial crime intelligence with cutting-edge AI Agents. The role involves developing and maintaining LLM-based and agentic features for their compliance platform, as well as automating testing and improvement processes. The ideal candidate should have 3+ years of experience in AI research or engineering, technical expertise in prompt engineering and model fine-tuning, a product mindset focused on customer needs, and a collaborative and growth-oriented approach to work.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "When Root Meets Immutable: OpenBSD Chflags vs. Log Tampering",
+    "url": "https://rsadowski.de/posts/2025/openbsd-immutable-system-logs/",
+    "date": "Fri, 18 Jul 2025 08:36:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:30.173011",
+    "summary": "The article discusses the importance of protecting system logs against tampering for ISO 27001 compliance and security purposes. It highlights how OpenBSD's immutable flags can be used to ensure the integrity of log files by making them tamper-proof and discusses a method to automate log rotation and archiving while maintaining immutability, providing a secure and compliant solution without the need for additional software or network dependencies.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fully homomorphic encryption and the dawn of a private internet",
+    "url": "https://bozmen.io/fhe",
+    "date": "Fri, 18 Jul 2025 03:49:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:30.984734",
+    "summary": "The article discusses Fully Homomorphic Encryption (FHE), a technology that allows computations on encrypted data without the need for decryption. While FHE is currently slow and not widely used, advancements in FHE algorithms are making it faster each year, potentially leading to a future where most internet computations can be done with FHE, enhancing privacy and security online.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "NIH is cheaper than the wrong dependency",
+    "url": "https://lewiscampbell.tech/blog/250718.html",
+    "date": "Fri, 18 Jul 2025 02:27:43 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:32.479606",
+    "summary": "The article discusses the fallacy that dependencies in coding have zero downsides and emphasizes the costs associated with using large, complex dependencies in software development. It highlights the benefits of minimizing dependencies, as exemplified by TigerBeetle's \"zero dependencies\" policy, and introduces a Framework for Evaluating Dependencies to help developers make informed choices.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "ChatGPT agent: bridging research and action",
+    "url": "https://openai.com/index/introducing-chatgpt-agent/",
+    "date": "Thu, 17 Jul 2025 17:01:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:33.185173",
+    "summary": "The article introduces ChatGPT Agent, a new conversational AI model developed by OpenAI. ChatGPT Agent is designed to provide more engaging and human-like interactions in chat conversations. It incorporates advanced language understanding capabilities to facilitate more natural and coherent dialogue.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My experience with Claude Code after two weeks of adventures",
+    "url": "https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/",
+    "date": "Thu, 17 Jul 2025 18:27:24 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:33.931322",
+    "summary": "The author shares their experience using Claude Code over a period of two weeks, discussing their workflow, interactions with different models, and comparisons with Cursor. They highlight the benefits and challenges of using Claude Code, including its CLI-based nature encouraging exploration and rewarding curiosity, ultimately finding it valuable for power users despite certain limitations.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My favorite use-case for AI is writing logs",
+    "url": "https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/",
+    "date": "Thu, 17 Jul 2025 23:38:48 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:35.679484",
+    "summary": "The article discusses the author's favorite AI development product, Full Line Code Completion in PyCharm, which enhances coding efficiency and log writing in complex programming scenarios. It details the implementation process, including model training with a focus on Python, quantization for on-device deployment, and inference optimization using beam search, resulting in a localized and efficient solution tailored for coding tasks.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Arva AI (YC S24) Is Hiring an AI Research Engineer (London, UK)",
+    "url": "https://www.arva.ai/careers/ai-research-engineer",
+    "date": "Fri, 18 Jul 2025 08:05:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-18T15:55:37.672926",
+    "summary": "Arva AI is seeking an AI Research Engineer to work on their AI-powered compliance platform that automates manual human review tasks and enhances operational efficiency for financial institutions. The role involves building and iterating on AI features such as document fraud detection and web due diligence, as well as developing systems for testing and improving the solution. The ideal candidate should have 3+ years of experience in AI research or engineering, technical expertise in prompt engineering and fine-tuning models, a product mindset focusing on customer needs, and the ability to collaborate and communicate effectively across teams.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Why your website should be under 14kB in size",
+    "url": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/",
+    "date": "Sat, 19 Jul 2025 08:26:45 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:14:52.076733",
+    "summary": "The article discusses the importance of keeping website size under 14kB for faster loading times due to the TCP slow start algorithm. It explains how this limit can significantly reduce latency, especially in scenarios like satellite internet connections. The author emphasizes optimizing website content to fit within the 14kB limit to enhance user experience and reduce loading times.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My Self-Hosting Setup",
+    "url": "https://codecaptured.com/blog/my-ultimate-self-hosting-setup/",
+    "date": "Sat, 19 Jul 2025 02:56:02 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:14:53.164464",
+    "summary": "The article discusses the author's journey to achieve a self-hosting setup that prioritizes data control, privacy, and stability. They detail the technologies and services they use, such as NixOS, ZFS, Tailscale, Authelia, and LDAP, to create a robust and secure infrastructure for hosting various services and managing data. The author also shares their approach to simplifying access for family and friends, as well as addressing challenges like using multiple VPNs and configuring authentication protocols.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Pimping My Casio: Part Deux",
+    "url": "https://blog.jgc.org/2025/07/pimping-my-casio-part-deux.html",
+    "date": "Sat, 19 Jul 2025 07:58:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:14:54.705488",
+    "summary": "The blog post discusses the release of a new \"Pro\" version of alternative Casio internals by Oddly Specific Objects, featuring an accelerometer and a custom LCD for displaying more intricate text on screen. Unlike the original version, the Sensor Watch Pro does not require soldering for installation, making it a more accessible upgrade for Casio F-91W watches.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Valve confirms credit card companies pressured it to delist certain adult games",
+    "url": "https://www.pcgamer.com/software/platforms/valve-confirms-credit-card-companies-pressured-it-to-delist-certain-adult-games-from-steam/",
+    "date": "Fri, 18 Jul 2025 15:54:46 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:14:56.828352",
+    "summary": "Valve confirmed that it removed certain adult games from Steam due to pressure from credit card companies, as the games were deemed to violate payment processors' rules. The removal was to ensure customers could still purchase other titles on Steam. The incident highlights the influence of credit card processors on online content and raises concerns about allowing external entities to dictate digital storefront content.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to write Rust in the Linux kernel: part 3",
+    "url": "https://lwn.net/SubscriberLink/1026694/3413f4b43c862629/",
+    "date": "Fri, 18 Jul 2025 22:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:14:57.760080",
+    "summary": "The article discusses the interfaces between C and Rust in the kernel, highlighting the necessary bindings and challenges faced when integrating Rust code into the kernel. It delves into topics such as memory allocation, handling self-referential structures, and implementing locks in Rust. The emphasis is on the standardization of Rust interfaces, memory allocation methods, and the importance of maintaining safety and quality in Rust kernel development.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Advertising Without Signal: The Rise of the Grifter Equilibrium",
+    "url": "https://www.gojiberries.io/advertising-without-signal-whe-amazon-ads-confuse-more-than-they-clarify/",
+    "date": "Sat, 19 Jul 2025 02:25:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:15:02.893690",
+    "summary": "The article discusses how advertising on platforms like Amazon can create a \"grifter equilibrium\" where low-quality sellers can confuse consumers and operate alongside high-quality sellers. It explains how current advertising models, such as cost-per-acquisition (CPA) bidding, fail to effectively signal quality due to the ability of low-quality sellers to fund ads from initial sales. The article suggests potential remedies, such as return-adjusted CPA surcharges and relaunch detection, to deter entry by low-quality sellers and potentially restore a more effective signaling equilibrium.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Asynchrony is not concurrency",
+    "url": "https://kristoff.it/blog/asynchrony-is-not-concurrency/",
+    "date": "Fri, 18 Jul 2025 19:21:38 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:15:04.403456",
+    "summary": "The article discusses the concept of asynchrony as distinct from concurrency and parallelism in programming, highlighting how asynchrony allows tasks to run out of order while still being correct. It emphasizes the importance of understanding the differences between these terms to improve software development practices, reduce code duplication, and enable the co-existence of synchronous and asynchronous code in the same codebase. The author also touches on the implications of these concepts in the context of Zig's async I/O redesign and invites readers to a live demonstration of the implementation on Twitch.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Meta says it won’t sign Europe AI agreement, calling it an overreach",
+    "url": "https://www.cnbc.com/2025/07/18/meta-europe-ai-code.html",
+    "date": "Fri, 18 Jul 2025 17:56:37 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:15:05.869209",
+    "summary": "The article discusses Meta's plans to establish a new artificial intelligence research facility in Europe. This initiative aims to advance AI research and development in the region, with a focus on collaborating with academia and fostering innovation. Meta's investment in this AI code facility reflects its commitment to advancing technology and shaping the future of AI.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Bun adds pnpm-style isolated installation mode",
+    "url": "https://github.com/oven-sh/bun/pull/20440",
+    "date": "Sat, 19 Jul 2025 00:43:08 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:15:06.408220",
+    "summary": "This pull request on GitHub implements the \"nodeLinker\": \"isolated\" option for bun install, allowing for an isolated installation mode similar to pnpm that prevents phantom dependencies and enables parallel package installation. The PR also includes key features, directory structure examples, and configuration details. Additionally, there are discussions and feedback on issues related to workspace configuration, npm install strategy, and linking of transitive dependencies in a monorepo setup.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Debcraft – Easiest way to modify and build Debian packages",
+    "url": "https://optimizedbyotto.com/post/debcraft-easy-debian-packaging/",
+    "date": "Sat, 19 Jul 2025 00:04:31 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T15:15:11.470288",
+    "summary": "Debcraft is a tool designed to simplify Debian packaging by automating tedious tasks and promoting best practices. It utilizes declarative files in the debian/ subdirectory, supports Linux containers for cross-platform compatibility, and provides commands for building, testing, updating, and releasing packages. Debcraft aims to make Debian packaging more accessible and efficient, with features such as automated issue fixing and updating to the latest upstream versions.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I avoid using LLMs as a publisher and writer",
+    "url": "https://lifehacky.net/prompt-0b953c089b44",
+    "date": "Sat, 19 Jul 2025 10:51:59 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:32.284805",
+    "summary": "The article discusses the author's evolving skepticism towards the use of large language models (LLMs) like chatbots and AI for writing tasks, citing studies that show potential negative impacts on creativity and learning. The author emphasizes the importance of independent thinking and creativity in writing, cautioning against overreliance on LLMs for generating content.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fstrings.wtf",
+    "url": "https://fstrings.wtf/",
+    "date": "Sat, 19 Jul 2025 10:52:35 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:35.184802",
+    "summary": "The article on https://fstrings.wtf is a quiz to test one's knowledge of Python f-strings, with questions based on Python 3.13 behavior. The quiz consists of 20 questions, and participants can check their final score out of 20 at the end. Users can also save their progress in case they want to continue the quiz at a later time.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My Self-Hosting Setup",
+    "url": "https://codecaptured.com/blog/my-ultimate-self-hosting-setup/",
+    "date": "Sat, 19 Jul 2025 02:56:02 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:35.799959",
+    "summary": "The author shares their journey of transitioning from constantly tinkering with self-hosting setups to finally achieving a stable and functional setup that prioritizes control over data and services. They detail their use of NixOS, ZFS, Tailscale, Authelia, and LDAP to create a secure and organized infrastructure, along with addressing challenges like managing multiple VPNs and authentication protocols. The setup includes various VMs named after Star Wars planets, each serving a specific purpose within the author's home network.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "OpenAI claims Gold-medal performance at IMO 2025",
+    "url": "https://twitter.com/alexwei_/status/1946477742855532918",
+    "date": "Sat, 19 Jul 2025 09:11:19 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:37.832373",
+    "summary": "I am unable to access the specific article you provided. If you can provide me with the content or key points of the article, I would be happy to help summarize it for you.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Linux and Secure Boot certificate expiration",
+    "url": "https://lwn.net/SubscriberLink/1029767/43b62a7a7408c2a9/",
+    "date": "Sat, 19 Jul 2025 08:27:13 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:39.472989",
+    "summary": "The article discusses the upcoming expiration of a Microsoft key used for signing the shim first-stage UEFI bootloader for Secure Boot on Linux systems, which may impact system booting. The replacement key, available since 2023, may require hardware vendors to issue firmware updates, potentially leading to extra work for distributors and users to ensure system bootability with Secure Boot enabled. Additionally, the article mentions the potential challenges and solutions related to certificate expiration, firmware updates, and the role of tools like LVFS and fwupd in managing the transition to new keys for Secure Boot functionality.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "A 14kb page can load much faster than a 15kb page (2022)",
+    "url": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/",
+    "date": "Sat, 19 Jul 2025 08:26:45 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:41.287993",
+    "summary": "The article discusses the importance of keeping website size under 14kB to ensure faster loading times due to the TCP slow start algorithm. It explains how reducing website size can save visitors time by minimizing round trips between the server and the user. Additionally, it highlights the impact of latency on load times, using examples like satellite internet to illustrate the potential delays.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Pimping My Casio: Part Deux",
+    "url": "https://blog.jgc.org/2025/07/pimping-my-casio-part-deux.html",
+    "date": "Sat, 19 Jul 2025 07:58:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:42.170077",
+    "summary": "The article discusses the author's experience upgrading a classic Casio F-91W watch with Oddly Specific Objects' new \"Pro\" version of alternative internals, which includes an accelerometer and a custom LCD for displaying more complex text. Unlike the original version, the new Sensor Watch Pro does not require soldering for installation, making it easier to upgrade the watch. The process involves connecting the micro USB, clicking a switch on the back of the watch, and copying the firmware over to the watch to enjoy the new features.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Hyatt Hotels are using algorithmic Rest “smoking detectors”",
+    "url": "https://twitter.com/_ZachGriff/status/1945959030851035223",
+    "date": "Sat, 19 Jul 2025 04:02:57 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:43.580772",
+    "summary": "I apologize for the inconvenience, but I cannot access the specific article you provided. If you can provide a brief summary or key points from the article, I'd be happy to help summarize it for you.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Piramidal (YC W24) Is Hiring a Full Stack Engineer",
+    "url": "https://www.ycombinator.com/companies/piramidal/jobs/JfeI3uE-full-stack-engineer",
+    "date": "Sat, 19 Jul 2025 12:00:23 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:23:45.161893",
+    "summary": "Piramidal is seeking a proactive and customer-centric software engineer to work on enabling interactions and automations with their latest technologies, focusing on foundational details like data models and security. The company is developing a unique foundation model for electrophysiological brain data with the goal of creating neural decoders that allow humans to understand and control neural syntax, in line with their mission of redirecting technology to maximize human potential and support cognitive liberty.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I avoid using LLMs as a publisher and writer",
+    "url": "https://lifehacky.net/prompt-0b953c089b44",
+    "date": "Sat, 19 Jul 2025 10:51:59 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:17.982199",
+    "summary": "The article discusses the author's skepticism towards the use of generative language models (LLMs) like chatbots and AI assistants due to their negative impact on originality, brain connectivity, and independent thinking. The author highlights concerns about LLMs reducing the quality of work, diminishing the ability to learn independently, and potentially leading to misinformation if not verified. Additionally, the author emphasizes the importance of human creativity, critical thinking, and authenticity in writing and communication, suggesting readers reflect on their motivations for reading and writing before engaging with AI tools.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fstrings.wtf",
+    "url": "https://fstrings.wtf/",
+    "date": "Sat, 19 Jul 2025 10:52:35 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:20.163230",
+    "summary": "Error generating response: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=30)",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "My Self-Hosting Setup",
+    "url": "https://codecaptured.com/blog/my-ultimate-self-hosting-setup/",
+    "date": "Sat, 19 Jul 2025 02:56:02 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:20.706355",
+    "summary": "The author shares their journey of transitioning from constantly tinkering with self-hosting setups to achieving a stable and functional setup using technologies like NixOS, ZFS, Tailscale, Authelia, and LLDAP. They prioritize data control and privacy, sharing their setup and solutions to help others navigate self-hosting and promote autonomy in managing services and data.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Linux and Secure Boot certificate expiration",
+    "url": "https://lwn.net/SubscriberLink/1029767/43b62a7a7408c2a9/",
+    "date": "Sat, 19 Jul 2025 08:27:13 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:24.006905",
+    "summary": "The article discusses the upcoming expiration of a key from Microsoft that is used for Secure Boot on Linux systems, potentially causing issues with booting Linux distributions. The replacement key, available since 2023, may not be installed on many systems, requiring firmware updates from hardware vendors to address the situation. LVFS and fwupd are tools that can help update system firmware to ensure continued Secure Boot functionality.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "OpenAI claims Gold-medal performance at IMO 2025",
+    "url": "https://twitter.com/alexwei_/status/1946477742855532918",
+    "date": "Sat, 19 Jul 2025 09:11:19 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:27.708737",
+    "summary": "I'm sorry, but I am unable to access the article at the provided URL as it seems to be invalid. If you can provide me with the content of the article or a brief summary, I would be happy to help summarize it for you.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Pimping My Casio: Part Deux",
+    "url": "https://blog.jgc.org/2025/07/pimping-my-casio-part-deux.html",
+    "date": "Sat, 19 Jul 2025 07:58:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:29.516188",
+    "summary": "The blog post discusses the latest version of Oddly Specific Objects' alternative Casio internals called the Sensor Watch Pro, which includes an accelerometer and a custom LCD for displaying more complex text. Unlike the original version, the Sensor Watch Pro does not require any soldering and can be easily upgraded by connecting a micro USB and copying the firmware over to the watch. The post also provides instructions on how to run the emulator for the watch firmware using emscripten.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "A 14kb page can load much faster than a 15kb page (2022)",
+    "url": "https://endtimes.dev/why-your-website-should-be-under-14kb-in-size/",
+    "date": "Sat, 19 Jul 2025 08:26:45 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:30.659153",
+    "summary": "The article discusses the benefits of keeping website size under 14kB to optimize loading speed due to the TCP slow start algorithm. By fitting critical website components within 14kB, users can experience faster loading times, especially in cases of high latency, such as satellite internet. The 14kB rule is a guideline to ensure efficient data transmission and user experience, with considerations for HTTP/2 and HTTP/3 protocols.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Hyatt Hotels are using algorithmic Rest “smoking detectors”",
+    "url": "https://twitter.com/_ZachGriff/status/1945959030851035223",
+    "date": "Sat, 19 Jul 2025 04:02:57 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:32.311639",
+    "summary": "I apologize for the inconvenience, but it seems there was an error in trying to access the article you provided. If you can provide me with a brief overview or key points of the article, I would be happy to help summarize it for you.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "YouTube No Translation",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/",
+    "date": "Sat, 19 Jul 2025 07:58:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-19T19:57:34.722662",
+    "summary": "This Firefox extension called \"YouTube No Translation\" preserves the original language of titles, descriptions, and audio tracks on YouTube videos. Users can support the extension's development by making a contribution. The content on the site is generally licensed under the Creative Commons Attribution Share-Alike License v3.0 or later versions.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Complete silence is always hallucinated as \"ترجمة نانسي قنقر\" in Arabic",
+    "url": "https://github.com/openai/whisper/discussions/2608",
+    "date": "Tue, 22 Jul 2025 05:42:10 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:04.640910",
+    "summary": "Error generating response: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=30)",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Uv: Running a script with dependencies",
+    "url": "https://docs.astral.sh/uv/guides/scripts/#running-a-script-with-dependencies",
+    "date": "Mon, 21 Jul 2025 23:26:40 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:05.756621",
+    "summary": "The article discusses using uv to manage dependencies and execute Python scripts, emphasizing the declarative approach to declaring dependencies and the option to request dependencies per invocation. It explains how to declare dependencies using inline script metadata, lock dependencies for scripts, exclude newer distributions, request specific Python versions, and run scripts on Windows. It also provides guidance on executing scripts with dependencies, setting up shebangs, and using alternative package indexes.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Jujutsu for busy devs",
+    "url": "https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs",
+    "date": "Tue, 22 Jul 2025 00:21:48 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:06.308512",
+    "summary": "The article introduces Jujutsu as a simplified version control system that uses Git as a backend, offering features like stacked-diff workflows and seamless rebases. It explains how to set up and work with Jujutsu repositories, highlighting differences in workflow compared to Git, such as the use of revisions instead of branches and bookmarks instead of branches. The article also covers creating and sharing changes, resolving conflicts, and provides a high-level overview for busy developers looking to adopt Jujutsu in their workflow.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Firefox",
+    "url": "https://kau.sh/blog/how-to-firefox/",
+    "date": "Tue, 22 Jul 2025 10:51:30 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:09.257951",
+    "summary": "The article discusses the recent changes in Chrome's ad-blocking policy and highlights how Firefox, with its support for uBlock Origin, is becoming a preferred browser choice for users seeking a cleaner and faster browsing experience. It provides insights into the benefits of using Firefox for Android, the customization options available, and features like Total Cookie Protection and Multi-Account Containers that enhance privacy and usability. The author offers a detailed guide on setting up Firefox for optimal performance and encourages readers to switch to Firefox for a better web browsing experience.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "What went wrong inside recalled Anker PowerCore 10000 power banks?",
+    "url": "https://www.lumafield.com/article/what-went-wrong-inside-these-recalled-power-banks",
+    "date": "Mon, 21 Jul 2025 18:22:11 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:10.329834",
+    "summary": "The article discusses a recall of over one million Anker PowerCore 10000 power banks due to potential battery overheating issues. Through CT scanning, it was found that variations in battery cells, connector designs, and assembly processes contributed to the defects in the recalled power banks. The study highlights the importance of quality control in high-volume battery supply chains and the role of CT inspection in ensuring product safety and reliability.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "AI comes up with bizarre physics experiments, but they work",
+    "url": "https://www.quantamagazine.org/ai-comes-up-with-bizarre-physics-experiments-but-they-work-20250721/",
+    "date": "Tue, 22 Jul 2025 01:28:49 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-22T17:11:11.325119",
+    "summary": "Physicists are using artificial intelligence (AI) to design innovative experiments in quantum physics, with AI suggesting unconventional yet effective solutions such as adding a three-kilometer ring to improve gravitational wave detectors like LIGO. AI is also being utilized to uncover patterns in data from experiments like the Large Hadron Collider, potentially leading to new discoveries in physics. While AI has not yet invented new concepts, experts believe that AI-aided discoveries of new physics could soon become a reality.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Qwen3-Coder: Agentic coding in the world",
+    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "date": "Tue, 22 Jul 2025 21:12:30 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:41.191711",
+    "summary": "Qwen3-Coder is a powerful code model with a 480B-parameter Mixture-of-Experts variant that excels in agentic coding tasks, setting new benchmarks in the field. The model is supported by tools like Qwen Code for enhanced coding capabilities and is being advanced further with features like long-horizon RL to tackle real-world software engineering tasks. Ongoing efforts aim to improve the model's performance, explore self-improvement capabilities, and introduce additional model sizes to enhance productivity and reduce deployment costs.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Mathematics for Computer Science (2024)",
+    "url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/",
+    "date": "Wed, 23 Jul 2025 03:47:18 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:41.773596",
+    "summary": "The web page at the provided link is for a course titled \"Mathematics for Computer Science\" being offered at MIT in the spring of 2024. The course likely covers mathematical concepts relevant to computer science such as algorithms, discrete mathematics, and logic. Students interested in the intersection of mathematics and computer science may find this course beneficial.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The Benefits of Trunk-Based Development",
+    "url": "https://thinkinglabs.io/articles/2025/07/21/on-the-benefits-of-trunk-based-development.html",
+    "date": "Wed, 23 Jul 2025 04:50:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:49.130888",
+    "summary": "Trunk-based development is advocated for its collaborative nature, frequent commits to mainline, and reduction of work in progress, leading to improved quality, faster time to market, and increased user satisfaction. By fostering a high-trust environment, enabling continuous integration, and minimizing technical debt, trunk-based development promotes collective ownership, accelerates feedback, and enhances team efficiency.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "AI coding agents are removing programming language barriers",
+    "url": "https://railsatscale.com/2025-07-19-ai-coding-agents-are-removing-programming-language-barriers/",
+    "date": "Wed, 23 Jul 2025 03:39:13 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:50.751040",
+    "summary": "The author, a long-time Ruby developer, transitioned to working with multiple programming languages in 2025 with the help of AI coding tools like Cursor and Claude Code. By leveraging AI as a complementary pairing partner, the author was able to significantly reduce learning barriers and accelerate their proficiency in new languages such as C++ and Rust, while still valuing human expertise for guidance and course correction. This shift highlights a new era where AI tools can enhance developers' ability to work across languages efficiently, making multi-language proficiency more accessible and revolutionizing traditional notions of programming language specialization.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: WTFfmpeg",
+    "url": "https://github.com/scottvr/wtffmpeg",
+    "date": "Wed, 23 Jul 2025 04:03:53 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:51.704697",
+    "summary": "wtffmpeg is a command-line tool that utilizes a local Large Language Model (LLM) to translate plain English descriptions of video and audio tasks into executable ffmpeg commands. It simplifies the process of using ffmpeg by allowing users to provide natural language prompts instead of manually searching for specific ffmpeg flags. The tool provides examples and guidance on installation, configuration, and usage, with a warning to review generated commands before execution.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Countries across the world see food price shocks from climate extremes",
+    "url": "https://www.bsc.es/news/bsc-news/countries-across-the-world-see-food-price-shocks-climate-extremes-research-involving-bsc-shows",
+    "date": "Wed, 23 Jul 2025 03:57:02 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:52.721169",
+    "summary": "Research involving the Barcelona Supercomputing Center (BSC) shows that extreme weather events are causing food price shocks globally, affecting crops like potatoes, rice, fruit, and vegetables. These price spikes are leading to increased prices for consumers, particularly impacting low-income households who may have to resort to less nutritious, cheaper foods, which could worsen health outcomes. The study highlights the urgent need to address climate change to mitigate the effects of extreme weather on food production and prices.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "More than you wanted to know about how Game Boy cartridges work",
+    "url": "https://abc.decontextualize.com/more-than-you-wanted-to-know/",
+    "date": "Tue, 22 Jul 2025 19:17:38 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:56.306865",
+    "summary": "The article discusses the process of making a Game Boy cartridge from scratch, focusing on understanding how Game Boy cartridges work and detailing the components involved, such as the ROM chip, internal RAM, and cartridge RAM. It explains the role of the memory bank controller (MBC), which enables access to more ROM memory and on-cartridge RAM, and describes how ROM and RAM bank switching is achieved through the MBC5 chip. Additionally, it covers the use of battery-backed SRAM to store persistent data like saved games on Game Boy cartridges.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Algorithms for Modern Processor Architectures",
+    "url": "https://lemire.github.io/talks/2025/sea/sea2025.html",
+    "date": "Tue, 22 Jul 2025 22:56:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:58.757152",
+    "summary": "Daniel Lemire, a professor at Université du Québec, discusses performance optimization strategies for CPU-bound workloads in his talk. He highlights the importance of minimizing instruction count for optimal performance and presents techniques to achieve this, such as reducing the number of CPU instructions required for tasks like number parsing. Lemire also mentions the impact of hard-to-predict branches on performance and provides insights into hash functions and processor learning capabilities for improved efficiency.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Android Earthquake Alerts: A global system for early warning",
+    "url": "https://research.google/blog/android-earthquake-alerts-a-global-system-for-early-warning/",
+    "date": "Tue, 22 Jul 2025 18:23:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:33:59.145287",
+    "summary": "Google has developed the Android Earthquake Alerts system, utilizing the global network of Android smartphones to detect earthquakes and deliver early warnings to users in nearly 100 countries. The system has detected over 18,000 earthquakes, issued alerts for over 2000 significant events, and sent around 790 million alerts worldwide, significantly increasing the number of people with access to earthquake early warning systems. The system's continuous improvements in magnitude estimation and positive user feedback show its potential to provide valuable warnings and post-earthquake information to help create a safer world.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Org tutorials",
+    "url": "https://orgmode.org/worg/org-tutorials/index.html",
+    "date": "Wed, 23 Jul 2025 03:09:20 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T11:34:00.204121",
+    "summary": "The article provides resources and tutorials for using Org-mode, a tool for organizing tasks and information. It includes guides on setting up workflows, managing budgets, and contributing to the Org-mode community. The content is aimed at beginners looking for inspiration and more advanced users seeking to optimize their use of Org-mode.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Extending Emacs with Fennel (2024)",
+    "url": "https://andreyor.st/posts/2024-12-20-extending-emacs-with-fennel/",
+    "date": "Wed, 23 Jul 2025 05:54:21 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:05.708316",
+    "summary": "The article discusses extending Emacs with Fennel, a Lua-based language, by creating a package called require-fennel.el. It showcases how Fennel functions can be loaded and utilized in Emacs, demonstrating examples like loading Fennel modules, calling Fennel functions from Emacs Lisp, and enabling bidirectional communication between Fennel and Emacs Lisp. The author highlights the capability to run Fennel scripts in Emacs, achieving the integration of a second language into Emacs, although it involves running code in a separate process with communication via a custom protocol.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Qwen3-Coder: Agentic coding in the world",
+    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "date": "Tue, 22 Jul 2025 21:12:30 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:08.140117",
+    "summary": "Qwen3-Coder is a powerful code model with exceptional performance in coding and agentic tasks, setting state-of-the-art results among open models. It is supported by Qwen Code, a CLI tool for agentic coding, and offers advancements in real-world software engineering tasks through long-horizon reinforcement learning. The team behind Qwen3-Coder is actively working on improving its performance and exploring the potential for self-improvement, with more model sizes in development to enhance productivity and reduce deployment costs.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Rescuing two PDP-11s from a former British Telecom underground shelter (2023)",
+    "url": "https://forum.vcfed.org/index.php?threads/rescuing-two-pdp-11-systems-in-uk-from-a-former-big-british-telecom-underground-shelter-in-central-london.1244723/page-2",
+    "date": "Wed, 23 Jul 2025 06:02:40 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:08.425816",
+    "summary": "The article describes the author's experience rescuing two PDP-11 systems from a former underground shelter in Central London that was previously used by a British telecom company. The author details the challenges of moving the heavy equipment out of the shelter and the excitement of exploring the historic location. The author also shares photos and information about the PDP-11 systems and their restoration process.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "When Is WebAssembly Going to Get DOM Support?",
+    "url": "https://queue.acm.org/detail.cfm?id=3746174",
+    "date": "Wed, 23 Jul 2025 05:16:24 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:09.981881",
+    "summary": "The article discusses the readiness of WebAssembly (Wasm) for production usage in web applications, particularly in terms of its integration with web APIs like the DOM. It explains that while Wasm may not have direct access to the DOM, it is still suitable for various web-integrated uses through JavaScript APIs and compiler-generated glue code. The article also highlights the ongoing evolution of Wasm to reduce code size and improve performance, emphasizing the importance of prioritizing what makes programs work better rather than focusing solely on eliminating JavaScript.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Mathematics for Computer Science (2024)",
+    "url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/",
+    "date": "Wed, 23 Jul 2025 03:47:18 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:12.597747",
+    "summary": "The webpage at MIT contains information about the course \"Mathematics for Computer Science\" scheduled for the spring of 2024. It likely includes details such as the course number, title, description, and possibly the instructor's name. However, without access to the specific content, a detailed summary cannot be provided.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: WTFfmpeg – Natural Language to FFmpeg Translator",
+    "url": "https://github.com/scottvr/wtffmpeg",
+    "date": "Wed, 23 Jul 2025 04:03:53 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:19.764253",
+    "summary": "wtffmpeg is a command-line tool that utilizes a local Large Language Model to convert plain English descriptions of video and audio tasks into executable ffmpeg commands. Users can interact with the tool to generate commands and make manual adjustments before execution, ensuring compatibility with ffmpeg syntax. The tool provides a convenient and potentially humorous way to work with ffmpeg commands but users are advised to review and validate generated commands before executing them to prevent any potential issues or data loss.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Org tutorials",
+    "url": "https://orgmode.org/worg/org-tutorials/index.html",
+    "date": "Wed, 23 Jul 2025 03:09:20 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:20.795512",
+    "summary": "The article provides links to various tutorials and resources for getting organized with Org-mode, including setups for meetings, budget management, and note-taking. It also offers information on how to contribute to Org-mode development and showcases examples of power users' setups. Additionally, the article includes links to resources for further learning about Org-mode, such as screencasts and community-contributed Emacs configurations.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "More than you wanted to know about how Game Boy cartridges work",
+    "url": "https://abc.decontextualize.com/more-than-you-wanted-to-know/",
+    "date": "Tue, 22 Jul 2025 19:17:38 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:22.118274",
+    "summary": "The article discusses the process of creating a custom Game Boy cartridge using a RP2040 microcontroller and shares insights on how Game Boy cartridges work, including details on ROM, RAM, memory bank controllers, and bank switching. It explains the mechanisms behind ROM and RAM access, as well as the role of the MBC5 chip in enabling bank switching for ROMs and RAM on the cartridge, along with the importance of battery-backed SRAM for storing saved game data.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Depot (YC W23) Is Hiring a Technical Content Writer (Remote)",
+    "url": "https://www.ycombinator.com/companies/depot/jobs/BzrfAzP-technical-content-writer",
+    "date": "Wed, 23 Jul 2025 07:34:30 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-23T15:07:24.721906",
+    "summary": "Depot, a build acceleration and developer productivity platform, is seeking a technical content writer to help communicate its innovative approach to software builds. The company aims to revolutionize build performance by significantly reducing build times and improving developer productivity. With a remote team spread across the US, Europe, and Canada, Depot is focused on accelerating software development and enabling teams to save significant time and resources.",
+    "feed_name": "Hacker News"
   }
 ]

@@ -24,8 +24,8 @@ class GradioRSSApp:
                     df_data.append({
                         'Sl. No': i,
                         'Title': article['title'],
-                        'Summary': 'View Summary',  # Placeholder text for button column
-                        'Original URL': 'Open URL'   # Placeholder text for button column
+                        'Summary': f'📝 View Summary',  # This will be clickable
+                        'Original URL': f'🔗 Open URL'   # This will be clickable
                     })
                 return pd.DataFrame(df_data)
             else:
@@ -33,22 +33,25 @@ class GradioRSSApp:
         except Exception as e:
             return pd.DataFrame({'Error': [f"Connection error: {str(e)}"]})
     
-    def get_article_summary(self, selected_row: int) -> str:
-        """Get summary for selected article"""
+    def get_article_summary(self, selected_row: int) -> tuple:
+        """Get summary for selected article - returns (summary_text, modal_visibility)"""
         try:
             if selected_row is None or selected_row < 1 or selected_row > len(self.articles_data):
-                return "Please select a valid article row number."
+                return "Please select a valid article row number.", gr.update(visible=False)
             
             article_id = selected_row
             response = requests.get(f"{FASTAPI_BASE_URL}/api/article/{article_id}/summary")
             if response.status_code == 200:
                 data = response.json()
                 article = self.articles_data[selected_row - 1]
-                return f"**Title:** {article['title']}\n\n**Summary:** {data['summary']}"
+                summary_text = f"**{article['title']}**\n\n{data['summary']}"
+                return summary_text, gr.update(visible=True)
             else:
-                return f"Error fetching summary: {response.status_code}"
+                error_text = f"Error fetching summary: {response.status_code}"
+                return error_text, gr.update(visible=True)
         except Exception as e:
-            return f"Error: {str(e)}"
+            error_text = f"Error: {str(e)}"
+            return error_text, gr.update(visible=True)
     
     def open_original_url(self, selected_row: int) -> str:
         """Open original URL for selected article"""
@@ -58,9 +61,26 @@ class GradioRSSApp:
             
             article = self.articles_data[selected_row - 1]
             webbrowser.open(article['url'])
-            return f"Opening: {article['url']}"
+            return f"✅ Opened: {article['title']}"
         except Exception as e:
-            return f"Error opening URL: {str(e)}"
+            return f"❌ Error opening URL: {str(e)}"
+    
+    def handle_table_select(self, evt: gr.SelectData):
+        """Handle table cell selection"""
+        row_index = evt.index[0]
+        col_index = evt.index[1]
+        
+        if col_index == 2:  # Summary column
+            return self.get_article_summary(row_index + 1)
+        elif col_index == 3:  # URL column
+            url_result = self.open_original_url(row_index + 1)
+            return url_result, gr.update(visible=False)
+        
+        return "", gr.update(visible=False)
+    
+    def close_modal(self):
+        """Close the modal"""
+        return gr.update(visible=False)
     
     def get_feeds(self) -> pd.DataFrame:
         """Fetch feeds from FastAPI backend"""
@@ -75,13 +95,23 @@ class GradioRSSApp:
                         'Sl. No': feed['id'],
                         'Name': feed['name'],
                         'URL': feed['url'],
-                        'Action': 'Remove'  # Placeholder for remove button
+                        'Action': '🗑️ Remove'  # This will be clickable
                     })
                 return pd.DataFrame(df_data)
             else:
                 return pd.DataFrame({'Error': [f"Failed to fetch feeds: {response.status_code}"]})
         except Exception as e:
             return pd.DataFrame({'Error': [f"Connection error: {str(e)}"]})
+    
+    def handle_feeds_table_select(self, evt: gr.SelectData):
+        """Handle feeds table cell selection"""
+        row_index = evt.index[0]
+        col_index = evt.index[1]
+        
+        if col_index == 3:  # Action column (Remove)
+            return self.remove_feed(row_index + 1)
+        
+        return ""
     
     def add_feed(self, url: str, name: str = "") -> str:
         """Add new RSS feed"""
@@ -132,7 +162,7 @@ class GradioRSSApp:
 def create_gradio_app():
     app = GradioRSSApp()
     
-    # Custom CSS for better styling
+    # Custom CSS for better styling and modal
     css = """
     .gradio-container {
         max-width: 1200px !important;
@@ -144,6 +174,45 @@ def create_gradio_app():
         background-color: #007bff !important;
         color: white !important;
     }
+    /* Make certain table cells look clickable */
+    .dataframe td:nth-child(3), .dataframe td:nth-child(4) {
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: underline;
+    }
+    .dataframe td:nth-child(3):hover, .dataframe td:nth-child(4):hover {
+        background-color: #f8f9fa;
+        color: #0056b3;
+    }
+    /* Modal styling */
+        .modal-content {
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            max-height: 70vh;
+            overflow-y: auto;
+            margin: 0 auto; /* Center horizontally */
+            color: #000;
+        }
+
+        .modal-content h2, .modal-content p {
+            color: #000;
+        }
+
+        .modal-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    .close-button {
+        float: right;
+        margin-top:1px;
+        max-width: 50px;
+    }
     """
     
     with gr.Blocks(css=css, title="RSS Feed Summarizer") as demo:
@@ -154,11 +223,12 @@ def create_gradio_app():
             # View Results Tab (Default/Landing Page)
             with gr.TabItem("📊 View Results", id=0):
                 gr.Markdown("## Recent Articles")
+                gr.Markdown("*Click on '📝 View Summary' to see article summary in modal, or '🔗 Open URL' to open original article*")
                 
                 with gr.Row():
                     refresh_btn = gr.Button("🔄 Refresh Articles", variant="primary")
                 
-                # 4-column table as requested
+                # 4-column table with clickable Summary and URL columns
                 articles_table = gr.Dataframe(
                     value=app.get_articles(),
                     headers=["Sl. No", "Title", "Summary", "Original URL"],
@@ -166,32 +236,24 @@ def create_gradio_app():
                     wrap=True
                 )
                 
-                with gr.Row():
-                    with gr.Column(scale=1):
-                        article_row_input = gr.Number(
-                            label="Select Article Row Number",
-                            minimum=1,
-                            precision=0,
-                            value=1
-                        )
+                # Modal for displaying summary
+                with gr.Group(visible=False) as modal:
+                    with gr.Row():
+                        gr.Markdown("## 📖 Article Summary")
+                        close_modal_btn = gr.Button("❌ Close", variant="stop", size="sm", elem_classes=["close-button"])
                     
-                    with gr.Column(scale=1):
-                        summary_btn = gr.Button("📝 View Summary", variant="secondary")
-                        url_btn = gr.Button("🔗 Open Original URL", variant="secondary")
-                
-                with gr.Row():
-                    summary_output = gr.Textbox(
-                        label="Article Summary",
-                        lines=10,
-                        placeholder="Select an article and click 'View Summary' to see the summary here."
+                    summary_display = gr.Markdown(
+                        value="",
+                        elem_classes=["modal-content"]
                     )
                 
-                with gr.Row():
-                    url_status = gr.Textbox(
-                        label="URL Status",
-                        lines=1,
-                        placeholder="URL opening status will appear here."
-                    )
+                # Status display for URL operations
+                url_status = gr.Textbox(
+                    label="Status",
+                    lines=1,
+                    placeholder="Status messages will appear here...",
+                    visible=False
+                )
                 
                 # Event handlers for View Results tab
                 refresh_btn.click(
@@ -199,21 +261,34 @@ def create_gradio_app():
                     outputs=[articles_table]
                 )
                 
-                summary_btn.click(
-                    app.get_article_summary,
-                    inputs=[article_row_input],
-                    outputs=[summary_output]
+                # Handle table cell clicks
+                def handle_table_click(evt: gr.SelectData):
+                    row_index = evt.index[0]
+                    col_index = evt.index[1]
+                    
+                    if col_index == 2:  # Summary column
+                        summary_text, modal_visibility = app.get_article_summary(row_index + 1)
+                        return summary_text, modal_visibility, gr.update(visible=False)
+                    elif col_index == 3:  # URL column
+                        url_result = app.open_original_url(row_index + 1)
+                        return "", gr.update(visible=False), gr.update(value=url_result, visible=True)
+                    
+                    return "", gr.update(visible=False), gr.update(visible=False)
+                
+                articles_table.select(
+                    handle_table_click,
+                    outputs=[summary_display, modal, url_status]
                 )
                 
-                url_btn.click(
-                    app.open_original_url,
-                    inputs=[article_row_input],
-                    outputs=[url_status]
+                close_modal_btn.click(
+                    app.close_modal,
+                    outputs=[modal]
                 )
             
-            # Manage Feeds Tab (Reorganized as requested)
+            # Manage Feeds Tab
             with gr.TabItem("⚙️ Manage Feeds"):
                 gr.Markdown("## Manage RSS Feeds")
+                gr.Markdown("*Click on '🗑️ Remove' to delete a feed*")
                 
                 with gr.Row():
                     # Left side - Current Feeds Table
@@ -226,26 +301,15 @@ def create_gradio_app():
                         feeds_table = gr.Dataframe(
                             value=app.get_feeds(),
                             headers=["Sl. No", "Name", "URL", "Action"],
-                            interactive=False,
+                            interactive=True,
                             wrap=True
                         )
                         
-                        with gr.Row():
-                            with gr.Column(scale=1):
-                                feed_row_input = gr.Number(
-                                    label="Select Feed Row Number to Remove",
-                                    minimum=1,
-                                    precision=0,
-                                    value=1
-                                )
-                            
-                            with gr.Column(scale=1):
-                                remove_btn = gr.Button("🗑️ Remove Feed", variant="stop")
-                        
-                        remove_status = gr.Textbox(
-                            label="Remove Status",
+                        feeds_status = gr.Textbox(
+                            label="Status",
                             lines=2,
-                            placeholder="Feed removal status will appear here."
+                            placeholder="Feed operation status will appear here.",
+                            visible=False
                         )
                     
                     # Right side - Add New Feed Form
@@ -279,13 +343,20 @@ def create_gradio_app():
                     outputs=[feeds_table]
                 )
                 
-                remove_btn.click(
-                    app.remove_feed,
-                    inputs=[feed_row_input],
-                    outputs=[remove_status]
-                ).then(
-                    app.refresh_feeds,
-                    outputs=[feeds_table]
+                # Handle feeds table cell clicks
+                def handle_feeds_table_click(evt: gr.SelectData):
+                    row_index = evt.index[0]
+                    col_index = evt.index[1]
+                    
+                    if col_index == 3:  # Action column (Remove)
+                        result = app.remove_feed(row_index + 1)
+                        return result, gr.update(visible=True), app.refresh_feeds()
+                    
+                    return "", gr.update(visible=False), gr.update()
+                
+                feeds_table.select(
+                    handle_feeds_table_click,
+                    outputs=[feeds_status, feeds_status, feeds_table]
                 )
                 
                 add_btn.click(
@@ -310,17 +381,21 @@ def create_gradio_app():
                 ### Features:
                 - **Automatic Processing**: Feeds are processed weekly (every Monday at 9:00 AM)
                 - **AI Summaries**: Uses OpenAI GPT models to generate concise summaries
+                - **Clickable Table**: Click directly on table cells to view summaries or open URLs
+                - **Modal Display**: Article summaries appear in elegant modal popups
                 - **Multiple Formats**: Saves data in both CSV and JSON formats
                 - **Web Interface**: User-friendly interface for managing feeds and viewing results
                 
                 ### How to Use:
-                1. **View Results**: See recent articles with summaries (Default landing page)
-                2. **Manage Feeds**: Add or remove RSS feeds
-                3. The system automatically processes feeds weekly
+                1. **View Results**: See recent articles in the table
+                2. **View Summaries**: Click on "📝 View Summary" in the table to see article summary in a modal
+                3. **Open URLs**: Click on "🔗 Open URL" to open the original article
+                4. **Manage Feeds**: Add new feeds or remove existing ones by clicking "🗑️ Remove"
+                5. The system automatically processes feeds weekly
                 
                 ### Technical Details:
                 - Backend: FastAPI with automatic weekly scheduling
-                - Frontend: Gradio interface
+                - Frontend: Gradio interface with interactive tables and modals
                 - AI Integration: OpenAI GPT models
                 - Data Storage: CSV and JSON files
                 
