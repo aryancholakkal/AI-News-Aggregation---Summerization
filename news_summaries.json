@@ -673,5 +673,149 @@
     "timestamp": "2025-07-23T15:07:24.721906",
     "summary": "Depot, a build acceleration and developer productivity platform, is seeking a technical content writer to help communicate its innovative approach to software builds. The company aims to revolutionize build performance by significantly reducing build times and improving developer productivity. With a remote team spread across the US, Europe, and Canada, Depot is focused on accelerating software development and enabling teams to save significant time and resources.",
     "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:37.431856",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:38.204106",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:40.147835",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Dumb Pipe",
+    "url": "https://www.dumbpipe.dev/",
+    "date": "Sun, 27 Jul 2025 14:25:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:40.829464",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:51.002894",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Multiplex: Command-Line Process Mutliplexer",
+    "url": "https://github.com/sebastien/multiplex",
+    "date": "Mon, 28 Jul 2025 05:18:10 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:53.505653",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Making Postgres slower",
+    "url": "https://byteofdev.com/posts/making-postgres-slow/",
+    "date": "Sun, 27 Jul 2025 21:12:59 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:54.932705",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "EU age verification app to ban any Android system not licensed by Google",
+    "url": "https://www.reddit.com/r/degoogle/s/YxmPgFes8a",
+    "date": "Sun, 27 Jul 2025 22:18:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T11:59:56.631796",
+    "summary": "Error generating response: 'api_key'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:39.577571",
+    "summary": "The article discusses the concept of AI design using the analogy of copilots versus HUDs, inspired by a 1992 talk by Mark Weiser. Weiser advocated for designing interfaces that seamlessly integrate with human cognition, like a HUD in a plane, rather than relying on AI assistants that grab attention. The author suggests that while copilots may be suitable for routine tasks, HUDs that enhance human senses and understanding could be more effective for achieving exceptional outcomes in AI design.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:40.137847",
+    "summary": "The article discusses performance and privacy issues found in Trae IDE, a fork of Visual Studio Code by ByteDance. It highlights excessive resource consumption, persistent telemetry transmission despite user settings, and community management concerns. The analysis conducted in July 2025 reveals discrepancies in resource usage and network behavior, prompting further investigation and community members to conduct their own testing and share results.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Dumb Pipe",
+    "url": "https://www.dumbpipe.dev/",
+    "date": "Sun, 27 Jul 2025 14:25:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:41.514247",
+    "summary": "Dumbpipe.dev offers a simple solution for establishing direct connections between devices, bypassing NATs and adapting to changing network conditions. The tool, created by number 0, allows users to easily connect two machines and transfer data without the need for accounts or configuration. While it primarily uses QUIC over a magic socket for efficient communication, it also employs a meshed network of relay nodes for cases where direct connections are not possible.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:41.848826",
+    "summary": "The article discusses how big agriculture has misled the public about the benefits of biofuels. It highlights the deceptive tactics used by the industry to promote biofuels as a sustainable and environmentally-friendly alternative to fossil fuels. The author exposes the truth behind these claims and raises awareness about the negative impacts of biofuel production on the environment and food security.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:42.036876",
+    "summary": "The author and a friend hacked their \"smart\" washing machine for fun, connecting it to Discord to receive notifications when laundry cycles finish. Through reverse engineering, they decrypted and monitored the washing machine's data, leading to the development of a script that pings updates to a Discord webhook. They plan to expand their smart home setup by hacking other appliances like the dishwasher and TV for monitoring and control purposes.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Multiplex: Command-Line Process Mutliplexer",
+    "url": "https://github.com/sebastien/multiplex",
+    "date": "Mon, 28 Jul 2025 05:18:10 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:43.022065",
+    "summary": "Multiplex is a command-line multiplexer tool with a Python API that allows running multiple processes simultaneously and stopping them collectively. It gracefully shuts down child processes and merges their output and error streams for easy parsing. The tool is useful for running multiple programs concurrently and combining their outputs, demonstrated through various example commands provided in the documentation.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Making Postgres slower",
+    "url": "https://byteofdev.com/posts/making-postgres-slow/",
+    "date": "Sun, 27 Jul 2025 21:12:59 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:44.323218",
+    "summary": "The article explores the concept of intentionally slowing down a Postgres database by tweaking parameters in the postgresql.conf file. The author conducts various experiments, such as reducing buffer cache size, adjusting autovacuum settings, and manipulating the write-ahead log configurations, ultimately achieving a drastic decrease in Postgres performance. Through these adjustments, the author demonstrates how significant performance degradation can be achieved solely through configuration changes within Postgres.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "EU age verification app to ban any Android system not licensed by Google",
+    "url": "https://www.reddit.com/r/degoogle/s/YxmPgFes8a",
+    "date": "Sun, 27 Jul 2025 22:18:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T12:03:46.765312",
+    "summary": "The EU is developing an open-source app for privacy-preserving age verification, but it includes a feature that ties it to Google properties and services, limiting its functionality on devices not licensed by Google. This raises concerns as it may exclude users of alternative Android operating systems like GrapheneOS, preventing them from using the app for age verification. Efforts to address this issue have been made on GitHub, but there has been no response from the team members so far.",
+    "feed_name": "Hacker News"
   }
 ]
