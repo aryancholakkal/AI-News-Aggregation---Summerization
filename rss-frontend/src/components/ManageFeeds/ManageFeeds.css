@@ -1,0 +1,109 @@
+/* ManageFeedsPage.css */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  margin: 1rem;
+  color: #1f2937;
+}
+
+.manage-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.manage-wrapper h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.feed-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.feed-form input {
+  padding: 10px;
+  font-size: 14px;
+  flex: 1 1 300px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.feed-form button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.feed-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.status-message {
+  margin-bottom: 16px;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.feed-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.feed-table th,
+.feed-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.feed-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.feed-table a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.feed-table a:hover {
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .feed-form {
+    flex-direction: column;
+  }
+  .feed-form input,
+  .feed-form button {
+    width: 100%;
+  }
+}

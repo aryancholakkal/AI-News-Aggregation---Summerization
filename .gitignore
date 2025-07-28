@@ -1,0 +1,4 @@
+.venv
+.env
+news_summaries.csv
+news_summaries.json
