@@ -18,8 +18,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
-from dotenv import load_dotenv
+
 app = FastAPI(title="RSS Feed Summarizer", version="1.0.0")
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -35,19 +36,16 @@ feeds_file = "rss_feeds.json"
 csv_file = "news_summaries.csv"
 json_file = "news_summaries.json"
 
-load_dotenv()
 # Default settings
 default = {
     'url': os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1"),
-    'api_key':os.environ.get("OPENAI_API_KEY"),
+    'api_key': os.environ.get("OPENAI_API_KEY"),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
-    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article as a fun tidbit in a tech based newsletter in 2-3 sentences. Try to make the article fun and engaging"),
+    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article in 2-3 sentences."),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
 }
-
-print("HII",os.environ.get("OPENAI_API_KEY"))
 
 # Pydantic models
 class FeedRequest(BaseModel):
@@ -817,4 +815,5 @@ if __name__ == "__main__":
     print("Automatic weekly processing is enabled (Mondays at 9:00 AM)")
     process_feeds_background()
     print("Commencing automatic processing")
+    print("API Key:", os.environ.get("OPENAI_API_KEY"))
     uvicorn.run(app, host="0.0.0.0", port=8000)

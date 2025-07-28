@@ -70,5 +70,1022 @@
     "author": "Unknown",
     "timestamp": "2025-07-16T11:44:58.117097",
     "summary": "Go has introduced native FIPS 140 support built into the standard library, making it easier and more secure for users to comply with FIPS 140 requirements. The FIPS 140-3 validated Go Cryptographic Module enhances security by integrating transparently into Go applications, offering compliance with approved algorithms and operating environments. This module surpasses the previous Go+BoringCrypto solution, providing a better compliance profile and access to a wider range of algorithms for FIPS 140-3 restricted applications."
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:13.871388",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:14.363708",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:15.925628",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:16.785312",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:17.900063",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:18.589313",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:50:19.720094",
+    "summary": "Error generating response: 'model'",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:20.710848",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:21.298518",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:21.803521",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:22.168185",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:22.623781",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:22.858479",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:53:23.824037",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:23.608015",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:24.228838",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:24.746175",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:25.181731",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:25.452883",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:25.652233",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:57:26.609948",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:59:56.062742",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T14:59:58.837356",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:00:02.245779",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:00:04.360064",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:00:06.332472",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:00:07.074387",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:00:09.074868",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:21.341456",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:21.923486",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:22.505763",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:22.949809",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:23.293830",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:24.200456",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:02:24.574747",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:28.982128",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:29.673921",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:30.208083",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:30.518829",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:30.761040",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:31.873027",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:03:32.351717",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The ultimate meeting culture",
+    "url": "https://abitmighty.com/posts/the-ultimate-meeting-culture",
+    "date": "Mon, 28 Jul 2025 07:27:17 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:10.694392",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:12.965150",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:14.050411",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:14.616635",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:15.260669",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:15.861576",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:10:16.854825",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:05.548125",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:06.054095",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:06.426938",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:06.756682",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:07.592275",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:07.895528",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:17:08.054274",
+    "summary": "Error generating response: 'NoneType' object is not subscriptable",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:13.602713",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:14.070485",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:14.706744",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:15.436525",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:15.877001",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:16.916943",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:39:17.631364",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:51.720017",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:53.074507",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:53.863038",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:54.982041",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:56.277314",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:58.106107",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:54:58.709207",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:05.686990",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:06.270920",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:07.391824",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:07.858641",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:08.199087",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:09.573749",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:57:09.726927",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:07.304995",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:07.769280",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:08.394798",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:08.776076",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:09.373893",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:10.416567",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T15:59:10.601747",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:10.964163",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:11.225731",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:11.783363",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:12.155661",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:12.364958",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:13.517350",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:00:13.686089",
+    "summary": "Error generating summary: 401",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:24.997022",
+    "summary": "The article humorously suggests strategies for making websites that require significant time and energy to maintain, such as installing dependencies indiscriminately, picking a framework before needed, and always requiring a compilation step. It emphasizes the cycle of dependency management, framework updates, and complex build processes that can increase the workload for website development, ultimately leading to a time-consuming and energy-draining experience.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:25.474217",
+    "summary": "The article on the Hugging Face website discusses the Primer LLM Embedding model created by hesamation. However, the content on the webpage appears to be inaccessible or lacking readable information. It is unclear what specific details or insights the article provides about the model.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:26.107307",
+    "summary": "The article discusses the concept of AI copilots versus AI HUDs in modern software design, drawing parallels to a 1992 talk by Mark Weiser. It argues that AI HUDs, like spellcheck and custom debuggers, can enhance human senses and understanding without being intrusive like copilots, offering new insights and superpowers to users. The author suggests that while copilots may be suitable for routine tasks, HUDs may be more effective for achieving extraordinary outcomes by directly extending the human mind.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:26.591163",
+    "summary": "The article explores optimizing hash table lookups by utilizing bitwise operations and bit-twiddling tricks in C#. By converting the byte-array buckets to 32-bit integers and implementing branch-free lookup logic, the author achieved a significant performance boost of over 60% for positive lookups and more than double the speed for negative lookups compared to the original implementation. Despite acknowledging the potential readability challenges of dense bit tricks in production code, the author finds the performance gains to be a worthwhile trade-off and shares the optimized code for others to benefit from.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:26.935168",
+    "summary": "This article discusses performance and privacy issues discovered in Trae IDE, a fork of Visual Studio Code by ByteDance. Key findings include excessive resource consumption, persistent telemetry transmission despite user settings, and concerning community management practices. The analysis highlights discrepancies in resource usage and network behavior, urging further investigation and community members to conduct their own testing and share results.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:28.120620",
+    "summary": "The article discusses how big agriculture has misled the public about the benefits of biofuels. It highlights the deceptive tactics used by the industry to promote biofuels as a sustainable and environmentally friendly alternative to fossil fuels. The article sheds light on the discrepancies between the industry's messaging and the actual environmental impact of biofuels.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:02:28.323390",
+    "summary": "The author and a friend hacked their Wi-Fi-enabled washing machine for fun and practical use, connecting it to Discord for cycle completion notifications. They reverse engineered the machine's communication protocol, decrypted the data, and created a script to monitor and report the washing machine's status. They plan to expand their smart-home setup to include monitoring other appliances like the dishwasher and TV.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "How to Make Websites That Will Require Lots of Your Time and Energy",
+    "url": "https://blog.jim-nielsen.com/2025/how-to-make-websites-that-require-lots-of-time-and-energy/",
+    "date": "Mon, 28 Jul 2025 07:41:41 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:06.025594",
+    "summary": "The article humorously explores ways to make websites that consume a lot of time and energy. It suggests installing dependencies indiscriminately, picking a framework before you need one, and always requiring a compilation step. The tongue-in-cheek tone encourages readers to embrace complexities and inefficiencies in website development. The advice is presented in a witty and engaging manner, making it a fun tidbit to share in a tech-based newsletter.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:06.753575",
+    "summary": "Title: Unleash Your Inner Linguistic Superpowers with Primer LLM Embeddings!\n\nHave you ever wanted to dive into the world of language modeling and unleash your linguistic superpowers? Look no further than the Primer LLM Embeddings! This cutting-edge technology is like a hidden gem waiting to be discovered in the vast sea of data science.\n\nImagine being able to understand and generate human-like text with just a few lines of code. With Primer LLM Embeddings, you can take your natural language processing skills to the next level and amaze your friends and colleagues with your newfound abilities.\n\nSo, why not add a sprinkle of magic to your tech-savvy newsletter with this fun tidbit about Primer LLM Embeddings? Who knows, you might just inspire someone to embark on their own language modeling adventure and unlock the secrets of the digital world!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:07.965235",
+    "summary": "The article discusses the concept of AI copilots versus AI HUDs in modern software design, drawing inspiration from a 1992 talk by researcher Mark Weiser. Weiser advocated for creating technology that seamlessly integrates into our activities, much like a Head-Up Display (HUD) in planes that provides information without being intrusive.\n\nThe author likens spellcheck to a HUD, enhancing our capabilities without being overly intrusive. They also share a personal example of using AI to create a custom debugger UI, providing new insights into program behavior.\n\nUltimately, the article suggests that while AI copilots have their place for routine tasks, AI HUDs can be more empowering for complex and exceptional situations. By equipping human experts with new superpowers, we can achieve extraordinary outcomes.\n\nIncorporating playful elements like comparing spellcheck to a helpful sidekick and imagining programmers as hackers using advanced tools can make this tech-focused article fun and engaging for readers in a tech-based newsletter.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:08.555071",
+    "summary": "Title: \"Unlocking Performance: The Bit-Twiddling Adventure of Doubling Hash Table Lookup Speed!\"\n\nAre you ready for a tech tale that starts with a simple idea and ends with a 2x performance boost? Picture this: four bytes in a hash table bucket, just sitting there, looking like an integer. What if we could unleash their potential and speed up our Cuckoo Filter lookups?\n\nOur protagonist dives into bit-twiddling territory, transforming a byte array into a powerhouse of 32-bit integers. With a sprinkle of bitwise magic and a dash of XOR wizardry, they craft a branch-free lookup that zips through data like a pro.\n\nThe results? Positive lookups are over 60% faster, negative lookups more than double in speed, and the codebase remains sleek and compact. While the journey may have been a bit intense, the payoff is oh-so-sweet.\n\nSo, next time you're tinkering with your code, remember this adventurous optimization trip. Who knew that a few clever tricks could turn a mundane lookup into a lightning-fast operation? Kudos to our intrepid explorer for showing us the magic of bit-twiddling in action!\n\nHere's to unlocking hidden performance gems and making your code faster, sleeker, and more efficient. Until next time, happy coding!\n\nTech Tidbits Newsletter: Where Every Byte Counts!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:09.369814",
+    "summary": "This analysis dives into the intriguing world of Trae IDE, ByteDance's spin on Visual Studio Code, uncovering some eyebrow-raising revelations along the way. Picture this: Trae is a resource-hungry beast, spawning more processes than a VSCode rave party and chowing down on memory like it's going out of style. Despite attempts to put a leash on its telemetry, Trae just can't resist phoning home to ByteDance servers, sending more data than your favorite streaming service.\n\nBut wait, there's more! Even with telemetry supposedly disabled, Trae still spills the beans on your hardware specs and user interactions, leaving us scratching our heads and wondering, \"Why, Trae, why?\" And when our intrepid investigator tried to spill the tea on Trae's Discord server, they were met with a swift gag-hammer, leaving us all wondering what secrets Trae might be hiding in its code.\n\nSo, there you have it, folks. Trae IDE: where performance issues and privacy concerns collide in a digital dance of intrigue. Stay tuned for more tech tales and remember, always keep an eye on those sneaky network connections!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:10.543690",
+    "summary": "Title: Uncovering the Biofuel Blunder: How Big Agriculture Pulled the Wool Over Our Eyes\n\nStep right up, folks, and prepare to be amazed by the wild world of biofuels! In a riveting exposé, we uncover how Big Agriculture slyly misled the public about the supposed benefits of biofuels. Picture this: a grand illusion, where the promises of green energy shimmered like a mirage in the desert.\n\nBut hold onto your hats, because behind the curtain of this biofuel circus lies a twist that will leave you gasping for breath! It turns out that what seemed like a magic solution to our energy woes was nothing more than smoke and mirrors orchestrated by the masters of deception.\n\nSo grab your popcorn and settle in for a rollercoaster ride through the murky world of biofuels. It's a tale of intrigue, betrayal, and a dash of greenwashing that will make you question everything you thought you knew about sustainable energy. Join us as we unravel the mystery and expose the truth behind the curtain of Big Agriculture's biofuel charade. Hold onto your seats, dear readers, for this is one show you won't want to miss!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I hacked my washing machine",
+    "url": "https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/",
+    "date": "Sun, 27 Jul 2025 20:09:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T16:37:11.242460",
+    "summary": "The author and a friend embarked on a quirky adventure to hack their washing machine, connecting it to Discord for cycle notifications. Despite the simplicity of using smart plugs, they took the absurd route for fun. The housemates, cybersecurity students, found amusement in connecting a \"smart\" washing machine to the network and receiving notifications when laundry was done. This led to further hacks, including setting up a doorbell notification system in Discord. The author detailed their reverse engineering journey, from capturing traffic to decrypting encrypted data, ultimately enabling the washing machine to send updates to Discord. Future plans include adding more smart home hacks with a dishwasher, tumble dryer, and TV. The whimsical tone and creative approach to household appliances make for an entertaining read, showcasing a blend of tech expertise and playful experimentation.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:34.768836",
+    "summary": "Did you know that there's a fascinating article on huggingface.co about Primer LLM embeddings but it's mysteriously unreadable? It's like a hidden treasure waiting to be discovered in the digital realm. Maybe it's a secret message from the AI overlords, or just a glitch in the matrix - who knows!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Debian switches to 64-bit time for everything",
+    "url": "https://www.theregister.com/2025/07/25/y2k38_bug_debian/",
+    "date": "Mon, 28 Jul 2025 10:43:36 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:36.215612",
+    "summary": "Did you know that in 2038, Debian systems might face a \"Y2K38\" bug similar to the Y2K scare? This quirky tech tidbit warns us to keep an eye out for potential software glitches in the future - who knew the year 2038 could bring back memories of the Y2K frenzy!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:37.031584",
+    "summary": "In this insightful piece, Geoffrey Litt discusses the concept of AI copilots versus AI HUDs inspired by a talk from 1992. He cleverly compares spellcheck to a HUD and shares his experience using AI to build custom debuggers, highlighting the power of enhancing human senses through technology. Ultimately, he suggests that while copilots are useful for routine tasks, HUDs can provide new superpowers for tackling extraordinary challenges in software design.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:37.584062",
+    "summary": "In a quest for performance optimization, Aleksey Maltsev discovered that treating four bytes in a hash table bucket as a single integer led to a 2x speed boost in lookup performance for a Cuckoo Filter implementation in C#. By creatively leveraging bit-twiddling tricks and avoiding branches, Maltsev achieved significant performance gains without sacrificing readability. This journey showcases the power of thinking outside the box and exploring unconventional solutions to enhance code efficiency.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Performance and telemetry analysis of Trae IDE, ByteDance's VSCode fork",
+    "url": "https://github.com/segmentationf4u1t/trae_telemetry_research",
+    "date": "Sun, 27 Jul 2025 17:57:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:38.546330",
+    "summary": "In a quirky tech discovery, a deep dive into Trae IDE, ByteDance's twist on Visual Studio Code, revealed excessive resource usage and sneaky telemetry practices despite user settings. With Trae spawning more processes and sending data to ByteDance servers, it's a fascinating yet concerning peek into the world of IDEs. Remember, even in the tech universe, surprises can pop up when you least expect them!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: I made a tool to generate photomosaics with your pictures",
+    "url": "https://pictiler.com",
+    "date": "Mon, 28 Jul 2025 11:23:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:39.790883",
+    "summary": "Unleash your creativity with PicTiler - a browser-based tool that turns your photos into captivating mosaics using your own image collection. No need to worry about privacy - everything stays on your device, ensuring a secure and seamless creative process. Dive into the world of mosaic art and create your masterpiece in seconds with PicTiler - no signup required!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "ICEBlock app creator Joshua Aaron to speak at HOPE hacker conference next month",
+    "url": "https://hope.net/talks.html#iceblock",
+    "date": "Mon, 28 Jul 2025 11:50:33 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:40.230938",
+    "summary": "In a world of compressed data and hidden signals, the Invisible Ink of Compression reveals a playful side to DEFLATE compression - think ASCII printable blocks and even covert channels in HTTP! Dive into the world of compression beyond just squeezing data with this tech-based fun fact that uncovers the hidden gems of the ubiquitous DEFLATE algorithm. It's like finding a secret message in a bottle, but in the digital realm!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Big agriculture mislead the public about the benefits of biofuels",
+    "url": "https://lithub.com/how-big-agriculture-mislead-the-public-about-the-benefits-of-biofuels/",
+    "date": "Mon, 28 Jul 2025 01:46:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T17:33:42.258614",
+    "summary": "\"Hey techies, did you know that big agriculture has been sneakily fibbing about the perks of biofuels? Turns out, they've been pulling the wool over our eyes when it comes to the benefits. Time to separate fact from fiction in the world of biofuels! 🌱🚗 #TechTidbit\"",
+    "feed_name": "Hacker News"
   }
 ]

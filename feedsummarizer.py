@@ -80,6 +80,7 @@ class NewsArticle:
         }
 
 def generate_ai_response(content, settings):
+    print("hi")
     try:
         headers = {
             "Content-Type": "application/json",
@@ -104,8 +105,11 @@ def generate_ai_response(content, settings):
             json=data,
             timeout=30
         )
+
+        print("response",response)
         
         if response.status_code == 200:
+
             return response.json()['choices'][0]['message']['content']
         else:
             return f"Error generating summary: {response.status_code}"
