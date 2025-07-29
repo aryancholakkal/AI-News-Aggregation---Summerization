@@ -1087,5 +1087,428 @@
     "timestamp": "2025-07-28T17:33:42.258614",
     "summary": "\"Hey techies, did you know that big agriculture has been sneakily fibbing about the perks of biofuels? Turns out, they've been pulling the wool over our eyes when it comes to the benefits. Time to separate fact from fiction in the world of biofuels! 🌱🚗 #TechTidbit\"",
     "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:46.030054",
+    "summary": "Did you know that there's a mysterious webpage known as the \"Primer LLM Embedding\" that seems to be hiding its secrets from the world? Rumor has it that this digital enigma is a treasure trove of hidden knowledge waiting to be unlocked by the brave and curious souls of the tech world. Will you be the one to crack the code and discover its hidden wonders?",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Debian switches to 64-bit time for everything",
+    "url": "https://www.theregister.com/2025/07/25/y2k38_bug_debian/",
+    "date": "Mon, 28 Jul 2025 10:43:36 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:47.123433",
+    "summary": "Did you know that in 2038, a Y2K38 bug could cause chaos for Debian Linux users? Just like the Y2K scare back in 2000, this bug could mess with time calculations on 32-bit systems. Better mark your calendars and stay tuned for updates to avoid any time-traveling mishaps!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: I made a tool to generate photomosaics with your pictures",
+    "url": "https://pictiler.com",
+    "date": "Mon, 28 Jul 2025 11:23:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:47.694729",
+    "summary": "Did you know you can turn your favorite photos into stunning photomosaics using Pictiler, all without leaving your browser? Upload your own images as building blocks, experiment with settings, and create professional-quality mosaics perfect for printing or sharing - all while keeping your data private and secure. It's like having your own personal mosaic artist at your fingertips!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:48.340390",
+    "summary": "Did you know that in the world of AI design, we might not need copilots but rather HUDs? Inspired by a 1992 talk by researcher Mark Weiser, the concept is about creating tech that seamlessly integrates with our senses like a Head-Up Display (HUD) in a plane, offering new perspectives without being intrusive. So next time you're designing with AI, consider embracing the HUD approach to empower users with new superpowers!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:49.346429",
+    "summary": "Did you know that by treating four bytes in a hash table bucket as a single integer, performance in a C# Cuckoo Filter implementation was doubled? This bit-twiddling adventure led to over 60% faster positive lookups and more than twice as fast negative lookups compared to the original byte-array implementation. Who knew that a simple idea could lead to such significant performance gains in a compact codebase?",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "UK VPN demand soars after debut of Online Safety Act",
+    "url": "https://www.theregister.com/2025/07/28/uk_vpn_demand_soars/",
+    "date": "Mon, 28 Jul 2025 11:48:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:03:50.019373",
+    "summary": "Did you know that in 2025, demand for VPNs in the UK skyrocketed as people tried to access \"forbidden\" websites? It seems like everyone's trying to unlock the virtual Pandora's box! It's like having your own secret passageway to the digital world - who knew privacy could be so popular?",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:08.476523",
+    "summary": "Unleash the power of AI with Primer LLM Embedding! Dive into cutting-edge language modeling technology that revolutionizes text analysis and understanding. Discover a new frontier in NLP innovation at huggingface.co.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Debian switches to 64-bit time for everything",
+    "url": "https://www.theregister.com/2025/07/25/y2k38_bug_debian/",
+    "date": "Mon, 28 Jul 2025 10:43:36 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:09.129807",
+    "summary": "\"Did you know that a Y2K38 bug has been discovered in Debian systems? This software flaw could potentially cause issues similar to the Y2K bug that plagued computers in 2000. Stay informed to prevent future tech headaches!\"",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: I made a tool to generate photomosaics with your pictures",
+    "url": "https://pictiler.com",
+    "date": "Mon, 28 Jul 2025 11:23:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:09.499719",
+    "summary": "Transform your favorite photos into stunning mosaics using Pictiler - all within your browser without any uploads or data collection. Create professional-quality mosaics with high resolution and privacy guaranteed, making it perfect for art, marketing, or personal use. Experience the magic of turning images into intricate mosaic art instantly and securely.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:09.773396",
+    "summary": "Forget AI copilots - what if we had AI HUDs instead? Imagine software design where technology seamlessly integrates with our senses, like how a Head-Up Display in planes enhances a pilot's awareness without being intrusive. Embrace the idea of HUDs over copilots for a more intuitive and powerful human-machine interaction experience.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:10.362744",
+    "summary": "By cleverly leveraging bit-twiddling techniques and transforming hash table buckets into integers, lookup performance in a Cuckoo Filter implementation was doubled. Through intricate XOR operations and bit-twiddling hacks, positive lookups became over 60% faster and negative lookups more than twice as fast compared to the original byte-array implementation.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "UK VPN demand soars after debut of Online Safety Act",
+    "url": "https://www.theregister.com/2025/07/28/uk_vpn_demand_soars/",
+    "date": "Mon, 28 Jul 2025 11:48:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:06:10.615320",
+    "summary": "\"UK VPN demand skyrockets as privacy concerns surge, highlighting a growing trend towards online anonymity and data protection in the digital age.\"",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:41.034889",
+    "summary": "Unleash the power of language with Primer LLM Embedding - a cutting-edge technology that revolutionizes natural language processing, offering unprecedented capabilities in understanding and generating text. Dive into the future of AI-driven language models with this game-changing innovation.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Debian switches to 64-bit time for everything",
+    "url": "https://www.theregister.com/2025/07/25/y2k38_bug_debian/",
+    "date": "Mon, 28 Jul 2025 10:43:36 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:41.700897",
+    "summary": "Debian Linux systems could face a Y2K38-like bug in 2038, potentially causing chaos similar to the infamous Y2K scare. Make sure your systems are prepared for the upcoming date overflow!",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: I made a tool to generate photomosaics with your pictures",
+    "url": "https://pictiler.com",
+    "date": "Mon, 28 Jul 2025 11:23:50 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:42.302350",
+    "summary": "Transform your photos into stunning mosaics with Pictiler, where every pixel is analyzed to create perfect tile placement. No uploads, just fast, professional-quality results right in your browser.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Enough AI copilots, we need AI HUDs",
+    "url": "https://www.geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds",
+    "date": "Sun, 27 Jul 2025 22:51:28 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:43.014563",
+    "summary": "Forget AI copilots - the future of user interfaces lies in AI HUDs like the Head-Up Display in planes, seamlessly integrating technology into our consciousness to enhance human senses and capabilities beyond traditional virtual assistants.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "SIMD Within a Register: How I Doubled Hash Table Lookup Performance",
+    "url": "https://maltsev.space/blog/012-simd-within-a-register-how-i-doubled-hash-table-lookup-performance",
+    "date": "Mon, 28 Jul 2025 05:41:34 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:43.413746",
+    "summary": "By leveraging bit-twiddling tricks, a simple idea to treat four bytes like an integer led to doubling the hash table lookup performance in a C# implementation of a Cuckoo Filter. This optimization resulted in over 60% faster positive lookups and more than double the speed for negative lookups, showcasing the power of clever bit manipulation in boosting performance.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "UK VPN demand soars after debut of Online Safety Act",
+    "url": "https://www.theregister.com/2025/07/28/uk_vpn_demand_soars/",
+    "date": "Mon, 28 Jul 2025 11:48:29 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T18:09:43.988580",
+    "summary": "UK VPN demand has surged dramatically, reflecting a growing concern for online privacy and security among Britons. This spike in VPN usage highlights a shift towards safeguarding digital identities in an increasingly interconnected world.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Tao on \"blue team\" vs. \"red team\" LLMs",
+    "url": "https://mathstodon.xyz/@tao/114915604830689046",
+    "date": "Mon, 28 Jul 2025 14:36:39 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:21.833529",
+    "summary": "Renowned mathematician Terence Tao recently shared groundbreaking insights on his blog about prime numbers and the distribution of twin primes, shedding new light on one of the oldest unsolved problems in number theory.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Copyparty, turn almost any device into a file server",
+    "url": "https://github.com/9001/copyparty",
+    "date": "Mon, 28 Jul 2025 14:57:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:24.855285",
+    "summary": "Copyparty is a portable file server with a wide range of features like accelerated resumable uploads, media indexing, and FTP capabilities all packed into a single file without any dependencies. It can turn almost any device into a powerful file server accessible through a web browser, making file management and sharing a breeze.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "GLM-4.5: Reasoning, Coding, and Agentic Abililties",
+    "url": "https://z.ai/blog/glm-4.5",
+    "date": "Mon, 28 Jul 2025 14:15:52 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:26.978542",
+    "summary": "Introducing GLM-4.5 and GLM-4.5-Air, with 355 billion and 106 billion parameters respectively, these models unify reasoning, coding, and agentic capabilities to meet the demands of complex applications, showcasing superior performance across various benchmarks in agentic tasks, reasoning, and coding.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The Geological Sublime",
+    "url": "https://harpers.org/archive/2025/07/the-geological-sublime-lewis-hyde-deep-time/",
+    "date": "Mon, 28 Jul 2025 13:10:00 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:28.053730",
+    "summary": "Geologists have found a way to determine the relative age of geological strata by counting fossilized mollusks—more extinct species indicate older layers. This method offers a fascinating glimpse into the deep history of our planet's geological formations.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "LLM Embeddings Explained: A Visual and Intuitive Guide",
+    "url": "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "date": "Mon, 28 Jul 2025 07:02:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:32.363173",
+    "summary": "Unleash the power of language with Primer LLM embeddings - transforming text into a treasure trove of insights with just a few clicks. Discover a new world of information at your fingertips.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "VPN use surges in UK as new online safety rules kick in",
+    "url": "https://www.ft.com/content/356674b0-9f1d-4f95-b1d5-f27570379a9b",
+    "date": "Mon, 28 Jul 2025 02:33:04 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:33.061393",
+    "summary": "Get complete digital access to quality FT journalism for just Rs4335 per month, with expert analysis from industry leaders. Save 20% by paying upfront for a year and enjoy award-winning Weekend Print editions. Discover exclusive features and content for organisations, and join over a million readers who pay for Financial Times.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Simplify, then add delightness: On designing for children",
+    "url": "https://shaneosullivan.wordpress.com/2025/07/28/on-designing-for-children/",
+    "date": "Mon, 28 Jul 2025 15:21:13 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:35.135058",
+    "summary": "Designing apps for children requires a unique approach that prioritizes intuitive controls, engaging interactions, and strict safety measures to protect young users from potential risks associated with online sharing and advertising. Shane O'Sullivan shares insights on creating delightful and safe digital experiences for kids in his blog post.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "AI Companion Piece",
+    "url": "https://thezvi.substack.com/p/ai-companion-piece",
+    "date": "Mon, 28 Jul 2025 14:11:35 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:36.187247",
+    "summary": "Recent research on AI companions reveals that larger models are more persuasive, with conversation-driven AI being 40-50% more persuasive than static messages. Personalization has minimal impact on persuasion, but poses potential risks in memory storage and privacy breaches, challenging traditional AI safety frameworks.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "The first 100% effective HIV prevention drug is approved and going global",
+    "url": "https://newatlas.com/infectious-diseases/hiv-prevention-fda-lenacapavir/",
+    "date": "Mon, 28 Jul 2025 15:06:00 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:36.708446",
+    "summary": "FDA approved lenacapavir, a groundbreaking HIV drug that offers 100% protection with twice-yearly injections. Gilead Sciences is providing affordable access globally, aiming to save millions of lives and potentially end the HIV epidemic.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I saved a PNG image to a bird",
+    "url": "https://www.youtube.com/watch?v=hCQCP-5g5bo",
+    "date": "Mon, 28 Jul 2025 16:18:49 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-28T22:59:37.373021",
+    "summary": "New research shows that quantum computers are capable of solving certain problems exponentially faster than classical computers, revolutionizing the future of computing with unprecedented speed and efficiency.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fintech dystopia",
+    "url": "https://fintechdystopia.com/",
+    "date": "Tue, 29 Jul 2025 01:57:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:49.754191",
+    "summary": "Many over-hyped technological solutions, including crypto and fintech, may be more harmful than helpful, as they often fail to address real societal problems and can exacerbate economic precarity. This article challenges the notion that technology always equals progress, highlighting the dangers of blindly pursuing tech-driven solutions in the fintech industry.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I designed my own fast game streaming video codec – PyroWave",
+    "url": "https://themaister.net/blog/2025/06/16/i-designed-my-own-ridiculously-fast-game-streaming-video-codec-pyrowave/",
+    "date": "Mon, 28 Jul 2025 20:01:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:50.438857",
+    "summary": "Maister has designed a ridiculously fast game streaming video codec called PyroWave, optimized for low latency and local streaming with a focus on GPU acceleration and wavelet-based compression, achieving encoding speeds that outperform even dedicated hardware codecs on GPUs.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Copyparty – Turn almost any device into a file server",
+    "url": "https://github.com/9001/copyparty",
+    "date": "Mon, 28 Jul 2025 14:57:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:52.176160",
+    "summary": "Copyparty is a portable file server that turns almost any device into a powerful file-sharing platform, offering features like accelerated uploads, media indexing, and secure access control—all in a single, dependency-free package. This versatile tool from Norway packs a punch with resumable uploads, zeroconf, and the ability to transform any browser into a file management powerhouse.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Tao on “blue team” vs. “red team” LLMs",
+    "url": "https://mathstodon.xyz/@tao/114915604830689046",
+    "date": "Mon, 28 Jul 2025 14:36:39 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:54.613485",
+    "summary": "Renowned mathematician Terence Tao's latest post on Mathstodon.xyz delves into advanced concepts in number theory and combinatorics, offering insights into cutting-edge mathematical research and problem-solving strategies.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Sign in with Google in Chrome",
+    "url": "https://underpassapp.com/news/2025/7/5.html",
+    "date": "Mon, 28 Jul 2025 20:24:38 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:56.044819",
+    "summary": "Did you know that Google Chrome bypasses annoying \"Sign in with Google\" banners on websites, unlike Safari and Firefox? However, Chrome has its own unique annoyance with One Tap dialogs that cannot be hidden by browser extensions.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: Use Their Dd – Use your local UK MP's ID for the online safety act",
+    "url": "https://use-their-id.com/",
+    "date": "Mon, 28 Jul 2025 21:49:10 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:09:59.046677",
+    "summary": "Surprisingly, a website at https://use-their-id.com offers no readable content, leaving visitors perplexed and curious about its purpose. What secrets lie behind this mysterious and seemingly empty digital facade?",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Different Clocks",
+    "url": "https://ianto-cannon.github.io/clock.html",
+    "date": "Mon, 28 Jul 2025 19:05:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:10:00.381993",
+    "summary": "A JavaScript-rendered clock website showcases time in unique ways, including polygons representing specific dates and waves signaling different time intervals. The intricate graphics even include Earth and Moon orbits synchronized with zodiac symbols, making time visualization an art form.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Claude Code weekly rate limits",
+    "url": "https://news.ycombinator.com/item?id=44713757",
+    "date": "Mon, 28 Jul 2025 18:27:51 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:10:01.181346",
+    "summary": "Starting August 28, users of Claude Code may face new weekly rate limits alongside the existing 5-hour limits, impacting less than 5% of users based on current usage patterns. This change aims to address issues like account sharing and running Claude 24/7 in the background, ensuring a more equitable experience for all users.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "NSF plans abrupt end to lone U.S. Antarctic research icebreaker",
+    "url": "https://www.science.org/content/article/nsf-plans-abrupt-end-lone-u-s-antarctic-research-icebreaker",
+    "date": "Tue, 29 Jul 2025 03:01:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:10:04.121029",
+    "summary": "\"National Science Foundation abruptly ends the use of the only U.S. icebreaker for Antarctic research, leaving scientists in a freeze.\"",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Fintech dystopia",
+    "url": "https://fintechdystopia.com/",
+    "date": "Tue, 29 Jul 2025 01:57:44 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:41.564856",
+    "summary": "\"Tech solutions like blockchain and fintech may promise innovation, but often fall short of addressing real societal issues and financial wellbeing, instead fueling speculation and profit-driven motives.\"",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "I designed my own fast game streaming video codec – PyroWave",
+    "url": "https://themaister.net/blog/2025/06/16/i-designed-my-own-ridiculously-fast-game-streaming-video-codec-pyrowave/",
+    "date": "Mon, 28 Jul 2025 20:01:26 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:42.249560",
+    "summary": "Maister developed PyroWave, an ultra-low latency video codec optimized for local game streaming, achieving encoding speeds faster than dedicated hardware codecs on GPUs. This custom codec offers high performance and minimal latency for game streaming applications, showcasing impressive compression results for niche use cases.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Copyparty – Turn almost any device into a file server",
+    "url": "https://github.com/9001/copyparty",
+    "date": "Mon, 28 Jul 2025 14:57:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:43.963657",
+    "summary": "Copyparty is a versatile portable file server that offers accelerated resumable uploads, deduplication, WebDAV, FTP, TFTP, and more in one file without dependencies. It can turn almost any device into a file server accessible through a web browser, offering a range of features and customization options for users.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Sign in with Google in Chrome",
+    "url": "https://underpassapp.com/news/2025/7/5.html",
+    "date": "Mon, 28 Jul 2025 20:24:38 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:45.458366",
+    "summary": "Google Chrome avoids displaying \"Sign in with Google\" banners that appear in Safari and Firefox by not showing them in the first place. However, Chrome has its own annoyance with One Tap dialogues that can be disabled in Chrome's settings.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Tao on “blue team” vs. “red team” LLMs",
+    "url": "https://mathstodon.xyz/@tao/114915604830689046",
+    "date": "Mon, 28 Jul 2025 14:36:39 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:48.540581",
+    "summary": "Renowned mathematician Terence Tao discusses cutting-edge research in the field of mathematics on his blog.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "An engineer's perspective: Why everything feels broken and what can we do",
+    "url": "https://tushardadlani.com/the-leverage-arbitrage-why-everything-feels-broken",
+    "date": "Tue, 29 Jul 2025 02:43:31 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:49.991331",
+    "summary": "In today's fast-paced world, higher-leverage actors are extracting value from systems faster than lower-leverage actors can maintain them, leading to a modern tragedy of the commons. To navigate this, we need to cultivate \"leverage literacy,\" consciously recognizing and utilizing power types to create a future where technological advancement aligns with sustainable social coordination.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Different Clocks",
+    "url": "https://ianto-cannon.github.io/clock.html",
+    "date": "Mon, 28 Jul 2025 19:05:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:51.696268",
+    "summary": "This article showcases interactive clocks rendered in scalable vector graphics using JavaScript, displaying Unix time and intricate time formats. Created by Ianto Cannon, the clocks feature waves passing at various intervals, synchronized with celestial movements like the Earth and Moon orbiting the Sun.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Show HN: Use Their Dd – Use your local UK MP's ID for the online safety act",
+    "url": "https://use-their-id.com/",
+    "date": "Mon, 28 Jul 2025 21:49:10 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:52.159703",
+    "summary": "Unfortunately, the website at https://use-their-id.com is devoid of any meaningful content. It's essential to ensure that websites provide valuable information to visitors to enhance user experience and credibility.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "NSF plans abrupt end to lone U.S. Antarctic research icebreaker",
+    "url": "https://www.science.org/content/article/nsf-plans-abrupt-end-lone-u-s-antarctic-research-icebreaker",
+    "date": "Tue, 29 Jul 2025 03:01:55 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:53.054311",
+    "summary": "The U.S. National Science Foundation is discontinuing its only Antarctic research icebreaker, impacting crucial research missions in the region. This abrupt decision raises concerns about the future of U.S. scientific exploration in Antarctica.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Claude Code weekly rate limits",
+    "url": "https://news.ycombinator.com/item?id=44713757",
+    "date": "Mon, 28 Jul 2025 18:27:51 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-29T10:38:54.388066",
+    "summary": "Starting August 28, Claude subscribers will have weekly usage limits in addition to the existing 5-hour limits, aiming to address policy violations and advanced usage patterns while providing a fair experience for most users. This change will affect less than 5% of users and is part of efforts to maintain reliable service for all.",
+    "feed_name": "Hacker News"
   }
 ]

@@ -5,9 +5,9 @@ import './HomePage.css';
 
 const HomePage = () => {
   const [articles, setArticles] = useState([]);
-  const [viewMode, setViewMode] = useState('list'); 
+  const [viewMode, setViewMode] = useState('grid'); 
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 8;
 
   useEffect(() => {
     fetchArticles(20)
@@ -19,7 +19,7 @@ const HomePage = () => {
   }, []);
 
   const toggleView = () => {
-    setViewMode(prev => (prev === 'list' ? 'grid' : 'list'));
+    setViewMode(prev => (prev === 'grid' ? 'list' : 'grid'));
   };
 
   const paginatedArticles = articles.slice(
@@ -38,10 +38,10 @@ const HomePage = () => {
     <div className="container page-wrapper">
 
       <section className="toolbar">
-        <select className='form-select w-auto'> 
+        {/* <select className='form-select w-auto'>  
           <option>Newest First</option>
           <option>Oldest First</option>
-        </select>
+        </select>*/}
         <button
             className="btn btn-outline-secondary d-flex align-items-center"
             onClick={toggleView}
@@ -51,10 +51,10 @@ const HomePage = () => {
         </button>
       </section>
 
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div className={`row ${viewMode === 'grid' ? 'row-cols-1 row-cols-md-2 row-cols-lg-4' : 'row-cols-1'}`}>
         {paginatedArticles.map((article, idx) => (
           <div key={idx} className="col">
-            <div className="card article-card h-100">
+            <div className="card article-card">
               {/* <img
                 src={article.image_url || 'https://via.placeholder.com/400x200'}
                 className="card-img-top thumbnail"

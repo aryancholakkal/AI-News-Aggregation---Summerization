@@ -42,7 +42,7 @@ default = {
     'api_key':os.environ.get("OPENAI_API_KEY"),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
-    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article as a fun tidbit in a tech based newsletter in 2-3 sentences. Try to make the article fun and engaging"),
+    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter."),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
 }

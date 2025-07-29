@@ -58,7 +58,7 @@ const ManageFeedsPage = () => {
 
   return (
     <div className="container my-4">
-      <h2 className="mb-4 border-bottom pb-2">Manage RSS Feeds</h2>
+      <h4 className="mb-4 border-bottom pb-2">Manage RSS Feeds</h4>
 
       {status && (
         <div className={`alert alert-${variant}`} role="alert">
@@ -119,7 +119,7 @@ const ManageFeedsPage = () => {
                       className="btn btn-sm btn-danger"
                       onClick={() => handleDeleteFeed(feed.id)}
                     >
-                      🗑️ Remove
+                      Remove
                     </button>
                   </td>
                 </tr>

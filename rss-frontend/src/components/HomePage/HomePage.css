@@ -1,17 +1,16 @@
-/* FeedHomePage.css */
+/* ===== Global Styles ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
+
 body {
-  background-color: #f8f9fa;
+  background-color: #f4f7fb;
   margin: 1rem;
   color: #1f2937;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
 }
 
-.page-wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 1.5rem;
-}
 
-.page-header {
+/* .page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +20,7 @@ body {
 }
 
 .page-header h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-family: 'Space Grotesk ', sans-serif;
   margin: 1rem;
 }
 
@@ -35,68 +33,89 @@ body {
 
 .page-header nav a:hover {
   color: #2563eb;
+} */
+
+/* ===== Wrapper ===== */
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
+/* ===== Toolbar ===== */
 .toolbar {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 12px;
   margin-bottom: 1.5rem;
 }
 
-.feed-section {
-  margin-bottom: 2rem;
-}
-
+/* ===== Article Cards ===== */
 .article-card {
   background-color: #fff;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   height: 100%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Thumbnail (if you add back images) */
 .thumbnail {
   width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   object-fit: cover;
-  border-bottom: 1px solid #eee;
+  border-radius: 0.75rem 0.75rem 0 0;
 }
 
+/* ===== Article Body ===== */
 .article-body {
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* padding: 1.2rem; */
 }
 
 .article-body h3 {
-  font-size: 18px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0 0 0.5rem;
   color: #111827;
+  transition: color 0.3s;
 }
 
+.article-card:hover .article-body h3 {
+  color: #2563eb;
+}
+
+/* ===== Meta Info ===== */
 .meta {
   font-size: 14px;
   color: #6b7280;
   margin-bottom: 0.75rem;
 }
 
+/* ===== Summary ===== */
 .summary {
-  font-size: 16px;
+  font-size: 12px;
   color: #374151;
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
-  max-height: 6em;
-  overflow-y: auto;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  /* max-height: 6em;
+  overflow-y: auto; */
 }
 
-.summary::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
+/* ===== Actions ===== */
 .actions {
+  margin-top: auto;  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,34 +125,30 @@ body {
   color: #2563eb;
   font-weight: 500;
   text-decoration: none;
+  font-size: 12px;
 }
 
 .actions a:hover {
   text-decoration: underline;
 }
 
+/* Did You Know Tag */
 .did-you-know {
-  background-color: #f0f7ff;
+  background-color: #eef6ff;
   border: 1px solid #cfe2ff;
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.375rem;
-  font-size: 14px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
   color: #2563eb;
-  cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 
 .did-you-know:hover {
-  background-color: #e0efff;
+  background-color: #dbeafe;
 }
 
-.view-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-}
-
+/* ===== Pagination ===== */
 .pagination-controls {
   display: flex;
   justify-content: center;
@@ -150,18 +165,9 @@ body {
   color: white;
 }
 
-.row-cols-1 .col {
+/* Spacing for grid/list */
+.row-cols-1 .col,
+.row-cols-md-2 .col,
+.row-cols-lg-3 .col {
   margin-bottom: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .row-cols-md-2 .col {
-    margin-bottom: 1.5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .row-cols-lg-3 .col {
-    margin-bottom: 1.5rem;
-  }
 }
