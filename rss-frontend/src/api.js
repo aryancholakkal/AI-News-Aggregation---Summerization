@@ -10,3 +10,4 @@ export const fetchSummary = (id) => API.get(`/article/${id}/summary`);
 export const fetchFeeds = () => API.get('/feeds');
 export const addFeed = (feed) => API.post('/feeds', feed);
 export const deleteFeed = (id) => API.delete(`/feeds/${id}`);
+export const didYouKnowContent = (url) => API.post('/convert-url', {url})

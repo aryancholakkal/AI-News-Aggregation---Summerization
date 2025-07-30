@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchArticles } from '../../api';
+import { fetchArticles, didYouKnowContent } from '../../api';
 import { FaThList, FaThLarge } from 'react-icons/fa';
 import './HomePage.css';
 
@@ -7,10 +7,13 @@ const HomePage = () => {
   const [articles, setArticles] = useState([]);
   const [viewMode, setViewMode] = useState('grid'); 
   const [currentPage, setCurrentPage] = useState(1);
+  const [dykContent, setDykContent] = useState(null);
   const itemsPerPage = 8;
+  const [loadingId, setLoadingId] = useState(null);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    fetchArticles(20)
+    fetchArticles(40)
       .then(res => {
         setArticles(res.data);
         console.log(res);
@@ -32,6 +35,21 @@ const HomePage = () => {
   const handlePageChange = (page) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  
+  const handleContent = async (url, id) => {
+    setLoadingId(id);
+    try {
+      const { data } = await didYouKnowContent(url);
+      setDykContent(data.did_you_know);
+      setShowModal(true);
+    } catch (err) {
+      console.error('Error fetching Did You Know content:', err);
+      setDykContent('Failed to fetch Did You Know content.');
+      setShowModal(true);
+    } finally {
+      setLoadingId(null);
+    }
   };
 
   return (
@@ -73,7 +91,17 @@ const HomePage = () => {
                   <a href={article.url || article.link} target="_blank" rel="noreferrer">
                     Read More
                   </a>
-                  <span className="did-you-know">Did you know?</span>
+                  <button
+                    className="did-you-know"
+                    onClick={() => handleContent(article.url || article.link, idx)}
+                    disabled={loadingId === idx} 
+                  >
+                    {loadingId === idx ? (
+                      <span className="spinner-border spinner-border-sm text-primary" role="status" />
+                    ) : (
+                      'Did you know?'
+                    )}
+                  </button>                
                 </div>
               </div>
             </div>
@@ -93,6 +121,26 @@ const HomePage = () => {
             ))}
           </ul>
         </nav>
+      )}
+
+
+      {showModal && (
+        <div className="modal fade show" style={{ display: 'block', background: 'rgba(0,0,0,0.5)' }}>
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title">💡 Did You Know?</h5>
+                <button type="button" className="btn-close" onClick={() => setShowModal(false)}></button>
+              </div>
+              <div className="modal-body">
+                <p>{dykContent}</p>
+              </div>
+              <div className="modal-footer">
+                <button className="btn btn-secondary" onClick={() => setShowModal(false)}>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
