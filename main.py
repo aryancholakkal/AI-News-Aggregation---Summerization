@@ -39,11 +39,12 @@ load_dotenv()
 # Default settings
 default = {
     'url': os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1"),
-    'api_key':os.environ.get("OPENAI_API_KEY"),
+    'api_key':os.environ.get("OPENAI_API_KEY",""),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
     'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter."),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
+    'dyk_prompt': os.environ.get("FEEDSUMMARIZER_DYK_INSTRUCTION","Convert the following article into a single-sentence 'Did you know...' style fact. Be fun, factual, and concise."),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
 }
 
@@ -68,6 +69,9 @@ class ArticleResponse(BaseModel):
     timestamp: str
     summary: str
     feed_name: Optional[str] = ""
+
+class ArticleURLRequest(BaseModel):
+    url: str
 
 class NewsArticle:
     def __init__(self, entry, max_text_length):
@@ -153,6 +157,26 @@ def generate_ai_response(content, settings):
             
     except Exception as e:
         return f"Error generating response: {str(e)}"
+
+def fetch_article_text(url: str, max_text_length: int = 7000) -> str:
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+    except Exception as e:
+        return f"The page {url} could not be loaded: {str(e)}"
+
+    soup = BeautifulSoup(response.content, "html.parser")
+    paragraphs = soup.find_all("p")
+
+    if paragraphs:
+        text = "\n".join(p.get_text() for p in paragraphs)
+        words = text.split()
+        if len(words) > max_text_length:
+            text = " ".join(words[:max_text_length]) + "..."
+        return f"Content of {url}:\n{text}"
+    else:
+        return f"The web page at {url} doesn't seem to have any readable content."
+
 
 def load_feeds():
     """Load RSS feeds from JSON file"""
@@ -359,6 +383,51 @@ async def manual_process_feeds(background_tasks: BackgroundTasks):
     """Manually trigger feed processing"""
     background_tasks.add_task(process_feeds_background)
     return {"message": "Feed processing started"}
+
+@app.post("/api/convert-url")
+async def convert_url_to_did_you_know(request: ArticleURLRequest):
+    print("hi",request.url)
+    article_text = fetch_article_text(request.url, max_text_length)
+
+    if "could not be loaded" in article_text or "doesn't seem to have" in article_text:
+        raise HTTPException(status_code=400, detail="Failed to extract readable content from the URL.")
+
+    # Build instruction prompt
+    settings = default.copy()
+    prompt = f"{article_text}\n\n{settings['dyk_prompt']}"
+    
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {default['api_key']}"
+    }
+
+    messages = [
+        {"role": "system", "content": default['system']},
+        {"role": "user", "content": prompt}
+    ]
+
+    data = {
+        "model": default["model"],
+        "messages": messages,
+        "max_tokens": 200,
+        "temperature": 0.7,
+    }
+
+    try:
+        response = requests.post(
+            f"{default['url']}/chat/completions",
+            headers=headers,
+            json=data,
+            timeout=30
+        )
+        if response.status_code == 200:
+            result = response.json()["choices"][0]["message"]["content"].strip()
+            return {"did_you_know": result}
+        else:
+            raise HTTPException(status_code=500, detail="Failed to generate summary from LLM.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error during LLM call: {str(e)}")
+
 
 def get_html_content():
     """Generate the HTML content for the UI"""

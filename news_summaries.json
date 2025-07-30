@@ -1510,5 +1510,149 @@
     "timestamp": "2025-07-29T10:38:54.388066",
     "summary": "Starting August 28, Claude subscribers will have weekly usage limits in addition to the existing 5-hour limits, aiming to address policy violations and advanced usage patterns while providing a fair experience for most users. This change will affect less than 5% of users and is part of efforts to maintain reliable service for all.",
     "feed_name": "Hacker News"
+  },
+  {
+    "title": "M8.7 earthquake in Western Pacific, tsunami warning issued",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60/executive",
+    "date": "Wed, 30 Jul 2025 00:38:25 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:06.344535",
+    "summary": "Stay up-to-date on earthquakes with the Earthquake Event Page app, compatible with the latest browsers. Receive real-time notifications, feeds, and web services to stay informed.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Study mode",
+    "url": "https://openai.com/index/chatgpt-study-mode/",
+    "date": "Tue, 29 Jul 2025 17:01:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:07.724622",
+    "summary": "OpenAI has introduced a new \"Study Mode\" feature for ChatGPT, enhancing its capabilities for educational purposes. This feature allows users to ask questions and receive detailed explanations, making learning more interactive and engaging.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "RIP Shunsaku Tamiya, the man who made plastic model kits a global obsession",
+    "url": "https://JapaneseNostalgicCar.com/rip-shunsaku-tamiya-plastic-model-kits/",
+    "date": "Tue, 29 Jul 2025 20:57:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:08.188674",
+    "summary": "Shunsaku Tamiya, the visionary behind Tamiya's iconic plastic model kits, passed away at 90. His meticulous attention to detail and passion for precision revolutionized the hobby industry, leaving a lasting legacy in the hearts of model enthusiasts worldwide.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Launch HN: Hyprnote (YC S25) – An open-source AI meeting notetaker",
+    "url": "https://news.ycombinator.com/item?id=44725306",
+    "date": "Tue, 29 Jul 2025 16:24:08 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:09.909526",
+    "summary": "Hyprnote is a privacy-focused desktop app that transcribes and summarizes meetings on-device using local AI models, offering full data controllability and customization options for users. It aims to revolutionize real-world AI apps by prioritizing privacy and local processing.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "URL-Driven State in HTMX",
+    "url": "https://www.lorenstew.art/blog/bookmarkable-by-design-url-state-htmx/",
+    "date": "Tue, 29 Jul 2025 22:09:48 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:11.593403",
+    "summary": "Utilize the URL as your primary source of truth for filters, sorting, and pagination in HTMX applications, eliminating the need for complex state libraries. This URL-first approach offers shareable application state, seamless back button navigation, and built-in SEO benefits.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Two Birds with One Tone: I/Q Signals and Fourier Transform",
+    "url": "https://wirelesspi.com/two-birds-with-one-tone-i-q-signals-and-fourier-transform-part-1/",
+    "date": "Tue, 29 Jul 2025 23:09:04 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:19.597737",
+    "summary": "I/Q signals in wireless communications enable the transmission of information through phase-modulated sinusoidal waves. By combining orthogonal carriers represented by cosine and negative sine waves, complex numbers facilitate efficient signal processing and modulation techniques like Quadrature Amplitude Modulation (QAM) in modern communication systems.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Learning basic electronics by building fireflies",
+    "url": "http://a64.in/posts/learning-basic-electronics-by-building-fireflies/",
+    "date": "Tue, 29 Jul 2025 17:00:43 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:20.809759",
+    "summary": "Learn how to build your own fireflies using basic electronics like an Astable Multivibrator, LDRs, and Potentiometers to control their blinking behavior, ultimately experiencing the joy of creating something magical and learning through experimentation.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "iPhone 16 cameras vs. traditional digital cameras",
+    "url": "https://candid9.com/phone-camera/",
+    "date": "Tue, 29 Jul 2025 13:58:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:54:21.457770",
+    "summary": "Smartphone photos are rarely printed and framed on walls because they lack the resolution needed for high-quality prints. This is due to the limitations of phone camera sensors compared to traditional cameras.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "M8.7 earthquake in Western Pacific, tsunami warning issued",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60/executive",
+    "date": "Wed, 30 Jul 2025 00:38:25 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:17.173661",
+    "summary": "Stay up-to-date on earthquakes with the Earthquake Event Page application, compatible with the latest browsers. Receive real-time notifications, feeds, and web services for timely updates on seismic activity.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Study mode",
+    "url": "https://openai.com/index/chatgpt-study-mode/",
+    "date": "Tue, 29 Jul 2025 17:01:14 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:18.482790",
+    "summary": "OpenAI's ChatGPT now has a new \"study mode\" feature, allowing users to learn and study more effectively with the AI-powered tool.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "RIP Shunsaku Tamiya, the man who made plastic model kits a global obsession",
+    "url": "https://JapaneseNostalgicCar.com/rip-shunsaku-tamiya-plastic-model-kits/",
+    "date": "Tue, 29 Jul 2025 20:57:47 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:18.928200",
+    "summary": "Shunsaku Tamiya, the visionary behind Tamiya plastic model kits, revolutionized the industry with unparalleled precision and attention to detail. His legacy lives on through the timeless creations that have sparked the imaginations of hobbyists worldwide.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Launch HN: Hyprnote (YC S25) – An open-source AI meeting notetaker",
+    "url": "https://news.ycombinator.com/item?id=44725306",
+    "date": "Tue, 29 Jul 2025 16:24:08 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:20.162127",
+    "summary": "Hyprnote is a privacy-first desktop app that transcribes and summarizes meetings on-device, using local AI models, providing full data controllability and customization options for users and businesses. With a Pro license for individuals and potential business licenses for self-hosted server components, Hyprnote aims to revolutionize real-world AI applications.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "URL-Driven State in HTMX",
+    "url": "https://www.lorenstew.art/blog/bookmarkable-by-design-url-state-htmx/",
+    "date": "Tue, 29 Jul 2025 22:09:48 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:21.883780",
+    "summary": "Forget complex state management libraries - leverage the URL as your single source of truth for filters, sorting, and pagination in HTMX applications. Embracing the URL as your state store offers bookmarkable, shareable, and SEO-friendly application state without the need for additional dependencies or intricate JavaScript functions.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Two Birds with One Tone: I/Q Signals and Fourier Transform",
+    "url": "https://wirelesspi.com/two-birds-with-one-tone-i-q-signals-and-fourier-transform-part-1/",
+    "date": "Tue, 29 Jul 2025 23:09:04 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:22.789613",
+    "summary": "Orthogonal sinusoidal waves in I/Q signals enable efficient modulation and demodulation in communication systems, leading to increased spectral efficiency by a factor of 2. This elegant signal processing technique simplifies complex arithmetic operations and enhances communication performance.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "Learning basic electronics by building fireflies",
+    "url": "http://a64.in/posts/learning-basic-electronics-by-building-fireflies/",
+    "date": "Tue, 29 Jul 2025 17:00:43 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:24.151587",
+    "summary": "Learn how to build your own fireflies using basic electronics like an Astable Multivibrator, LDRs, and Potentiometers. Experiment with capacitor and resistor values to control blink intervals and power consumption, creating a unique and engaging DIY project.",
+    "feed_name": "Hacker News"
+  },
+  {
+    "title": "iPhone 16 cameras vs. traditional digital cameras",
+    "url": "https://candid9.com/phone-camera/",
+    "date": "Tue, 29 Jul 2025 13:58:06 +0000",
+    "author": "Unknown",
+    "timestamp": "2025-07-30T10:56:24.523262",
+    "summary": "Smartphone photos often lack the resolution required for high-quality prints, hindering their suitability for framing on walls. This is due to the limited capabilities of phone cameras compared to dedicated cameras.",
+    "feed_name": "Hacker News"
   }
 ]
