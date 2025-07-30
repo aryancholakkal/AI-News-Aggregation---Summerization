@@ -28,8 +28,9 @@ body {
 }
 
 .page-header h2 {
-  font-family: 'Orbitron', sans-serif; /* Techy font */
+  font-family: "Google Sans Flex", -apple-system, BlinkMacSystemFont, sans-serif; 
   font-size: 1.5rem;
+  font-weight: 600;
   margin: 0;
   letter-spacing: 1px;
 }

@@ -141,10 +141,16 @@ body {
   font-size: 13px;
   font-weight: 500;
   color: #2563eb;
+  cursor: pointer;
   transition: all 0.3s;
 }
 
-.did-you-know:hover {
+.did-you-know:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.did-you-know:hover:not(:disabled) {
   background-color: #dbeafe;
 }
 
