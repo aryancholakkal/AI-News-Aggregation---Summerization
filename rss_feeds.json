@@ -1,6 +1,22 @@
 [
   {
-    "url": "https://news.ycombinator.com/rss",
-    "name": "Hacker News"
+    "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+    "name": "Wired AI"
+  },
+  {
+    "url": "https://www.wired.com/feed/category/business/latest/rss",
+    "name": "Wired Business"
+  },
+  {
+    "url": "https://www.wired.com/feed/category/science/latest/rss",
+    "name": "Wired Science"
+  },
+  {
+    "url": "https://www.wired.com/feed/category/security/latest/rss",
+    "name": "Wired Security"
+  },
+  {
+    "url": "https://www.cnet.com/rss/news/",
+    "name": "CNET"
   }
 ]

@@ -42,7 +42,7 @@ default = {
     'api_key':os.environ.get("OPENAI_API_KEY",""),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
-    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter."),
+    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter and categorize it into one of the following categories: AI, New in Tech, Business, Games/Entertainment.Return the response in the following JSON format only and do NOT include any markdown or escape characters inside it :{\"summary\": \"Your summary here\", \"tag\": \"Category\"}"),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
     'dyk_prompt': os.environ.get("FEEDSUMMARIZER_DYK_INSTRUCTION","Convert the following article into a single-sentence 'Did you know...' style fact. Be fun, factual, and concise."),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
@@ -82,6 +82,7 @@ class NewsArticle:
         self.text = self.get_page_content(self.url, max_text_length)
         self.summary = ""
         self.feed_name = ""
+        self.tag = ""
         
     def get_page_content(self, url, max_text_length):
         if url == "NO LINK":
@@ -107,9 +108,10 @@ class NewsArticle:
     
     def summarize(self, settings):
         if self.text and "doesn't seem to have any URL" not in self.text:
-            self.summary = generate_ai_response(self.text, settings)
+            self.summary, self.tag = generate_ai_response(self.text, settings)
         else:
             self.summary = "Could not summarize - no content available"
+            self.tag = "Unknown"
         return self.summary
     
     def to_dict(self):
@@ -120,7 +122,8 @@ class NewsArticle:
             'author': self.author,
             'timestamp': self.timestamp,
             'summary': self.summary,
-            'feed_name': getattr(self, 'feed_name', '')
+            'feed_name': getattr(self, 'feed_name', ''),
+            'tag': self.tag
         }
 
 def generate_ai_response(content, settings):
@@ -138,9 +141,11 @@ def generate_ai_response(content, settings):
         data = {
             'model': settings['model'],
             'messages': messages,
-            'max_tokens': 500,
+            'max_tokens': 600,
             'temperature': 0.7
         }
+        
+        print(f"Sending request to {settings['url']}/chat/completions with data: {data}")
         
         response = requests.post(
             f"{settings['url']}/chat/completions",
@@ -149,13 +154,43 @@ def generate_ai_response(content, settings):
             timeout=30
         )
         
+        print(f"Received response with status code: {response.status_code}")
+        
         if response.status_code == 200:
-            return response.json()['choices'][0]['message']['content']
+            response_text = response.json()['choices'][0]['message']['content']
+            print(f"Response text: {response_text}")
+            
+            # Extract the JSON part from the response
+            response_text = response_text.strip()
+            start = response_text.find("{")
+            end = response_text.rfind("}")
+            if start != -1 and end != -1:
+                response_text = response_text[start:end+1]
+                print(f"Extracted JSON string: {response_text}")
+            else:
+                print("No valid JSON found in response text")
+                return f"Error parsing JSON response: {response_text}", "Unknown"
+            
+            # Removing any escape characters like \n or \t
+            response_text = response_text.replace("\n", "").replace("\t", "")
+            print(f"Cleaned JSON string: {response_text}")
+            
+            try:
+                response_json = json.loads(response_text)
+                summary = response_json.get('summary', '').strip()
+                tag = response_json.get('tag', 'Unknown').strip()
+                print(f"Parsed summary: {summary}, tag: {tag}")
+                return summary, tag
+            except json.JSONDecodeError:
+                print(f"JSON decode error: {response_text}")
+                return f"Error parsing JSON response: {response_text}", "Unknown"
         else:
-            return f"Error generating summary: {response.status_code}"
+            print(f"Error generating summary: {response.status_code}")
+            return f"Error generating summary: {response.status_code}", "Unknown"
             
     except Exception as e:
-        return f"Error generating response: {str(e)}"
+        print(f"Exception occurred: {str(e)}")
+        return f"Error generating response: {str(e)}", "Unknown"
 
 def fetch_article_text(url: str, max_text_length: int = 7000) -> str:
     try:
@@ -194,7 +229,7 @@ def save_feeds(feeds):
 
 def save_to_csv(articles):
     """Save articles to CSV file"""
-    fieldnames = ['title', 'url', 'date', 'author', 'timestamp', 'summary', 'feed_name']
+    fieldnames = ['title', 'url', 'date', 'author', 'timestamp', 'summary', 'feed_name','tag']
     
     file_exists = os.path.exists(csv_file)
     
