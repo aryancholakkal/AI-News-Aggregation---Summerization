@@ -42,9 +42,11 @@ default = {
     'api_key':os.environ.get("OPENAI_API_KEY",""),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
-    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter and categorize it into one of the following categories: AI, New in Tech, Business, Games/Entertainment.Return the response in the following JSON format only and do NOT include any markdown or escape characters inside it :{\"summary\": \"Your summary here\", \"tag\": \"Category\"}"),
+    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (min 2 sentences) "
+    "suitable for a newsletter headline. Tag it with one of: AI, New in Tech, Business, Games/Entertainment. "
+    "Output only JSON like: {\"summary\": \"…\", \"tag\": \"…\"}"),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
-    'dyk_prompt': os.environ.get("FEEDSUMMARIZER_DYK_INSTRUCTION","Convert the following article into a single-sentence 'Did you know...' style fact. Be fun, factual, and concise."),
+    'dyk_prompt': os.environ.get("FEEDSUMMARIZER_DYK_INSTRUCTION","Turn this article into one fun, factual, and that feels like a surprising fact or hook for a newsletter. It should be exciting and attention-grabbing, but it does not have to start with 'Did you know'."),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
 }
 
@@ -67,6 +69,7 @@ class ArticleResponse(BaseModel):
     author: str
     timestamp: str
     summary: str
+    tag : str
     feed_name: Optional[str] = ""
 
 class ArticleURLRequest(BaseModel):
@@ -145,7 +148,7 @@ def generate_ai_response(content, settings):
             'temperature': 0.7
         }
         
-        print(f"Sending request to {settings['url']}/chat/completions with data: {data}")
+        # print(f"Sending request to {settings['url']}/chat/completions with data: {data}")
         
         response = requests.post(
             f"{settings['url']}/chat/completions",
@@ -158,7 +161,7 @@ def generate_ai_response(content, settings):
         
         if response.status_code == 200:
             response_text = response.json()['choices'][0]['message']['content']
-            print(f"Response text: {response_text}")
+            # print(f"Response text: {response_text}")
             
             # Extract the JSON part from the response
             response_text = response_text.strip()
@@ -166,20 +169,20 @@ def generate_ai_response(content, settings):
             end = response_text.rfind("}")
             if start != -1 and end != -1:
                 response_text = response_text[start:end+1]
-                print(f"Extracted JSON string: {response_text}")
+                # print(f"Extracted JSON string: {response_text}")
             else:
                 print("No valid JSON found in response text")
                 return f"Error parsing JSON response: {response_text}", "Unknown"
             
             # Removing any escape characters like \n or \t
             response_text = response_text.replace("\n", "").replace("\t", "")
-            print(f"Cleaned JSON string: {response_text}")
+            # print(f"Cleaned JSON string: {response_text}")
             
             try:
                 response_json = json.loads(response_text)
                 summary = response_json.get('summary', '').strip()
                 tag = response_json.get('tag', 'Unknown').strip()
-                print(f"Parsed summary: {summary}, tag: {tag}")
+                # print(f"Parsed summary: {summary}, tag: {tag}")
                 return summary, tag
             except json.JSONDecodeError:
                 print(f"JSON decode error: {response_text}")
@@ -243,20 +246,12 @@ def save_to_csv(articles):
             writer.writerow(article.to_dict())
 
 def save_to_json(articles):
-    """Save articles to JSON file"""
-    existing_data = []
-    if os.path.exists(json_file):
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-        except:
-            existing_data = []
-    
-    for article in articles:
-        existing_data.append(article.to_dict())
-    
+    """Save articles to JSON file (overwrite existing data)"""
+    # Convert articles to dictionaries
+    data_to_save = [article.to_dict() for article in articles]
+
     with open(json_file, 'w', encoding='utf-8') as f:
-        json.dump(existing_data, f, indent=2, ensure_ascii=False)
+        json.dump(data_to_save, f, indent=2, ensure_ascii=False)
 
 def process_feeds_background():
     """Background process to handle RSS feeds - runs weekly"""
@@ -334,7 +329,8 @@ async def get_articles(limit: int = 10):
                     author=article['author'],
                     timestamp=article['timestamp'],
                     summary=article['summary'],
-                    feed_name=article.get('feed_name', '')
+                    feed_name=article.get('feed_name', ''),
+                    tag=article['tag']
                 ))
             
             return result
@@ -398,6 +394,7 @@ async def add_feed(feed_request: FeedRequest):
     
     feeds.append({'url': feed_request.url, 'name': name})
     save_feeds(feeds)
+    load_feeds()
     return {"message": f"Feed '{name}' added successfully"}
 
 @app.delete("/api/feeds/{feed_id}")
@@ -408,6 +405,7 @@ async def remove_feed(feed_id: int):
     if 1 <= feed_id <= len(feeds):
         removed_feed = feeds.pop(feed_id - 1)
         save_feeds(feeds)
+        load_feeds()
         return {"message": f"Feed '{removed_feed['name']}' removed successfully"}
     else:
         raise HTTPException(status_code=404, detail="Feed not found")

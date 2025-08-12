@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { fetchArticles, didYouKnowContent } from '../../api';
 import { FaThList, FaThLarge } from 'react-icons/fa';
 import './HomePage.css';
@@ -8,18 +9,27 @@ const HomePage = () => {
   const [viewMode, setViewMode] = useState('grid'); 
   const [currentPage, setCurrentPage] = useState(1);
   const [dykContent, setDykContent] = useState(null);
-  const itemsPerPage = 8;
   const [loadingId, setLoadingId] = useState(null);
   const [showModal, setShowModal] = useState(false);
+  
+  const [searchParams] = useSearchParams();
+  const tagFilter = searchParams.get("tag"); // <-- Get tag from URL
+
+  const itemsPerPage = 8;
 
   useEffect(() => {
     fetchArticles(40)
       .then(res => {
-        setArticles(res.data);
-        console.log(res);
-    })
+        let data = res.data;
+        if (tagFilter) {
+          data = data.filter(article => article.tag === tagFilter);
+        }
+        setArticles(data);
+        console.log(data);
+        setCurrentPage(1); // reset to page 1 when tag changes
+      })
       .catch(err => console.error('Failed to load articles', err));
-  }, []);
+  }, [tagFilter]);
 
   const toggleView = () => {
     setViewMode(prev => (prev === 'grid' ? 'list' : 'grid'));
@@ -56,10 +66,6 @@ const HomePage = () => {
     <div className="container page-wrapper">
 
       <section className="toolbar">
-        {/* <select className='form-select w-auto'>  
-          <option>Newest First</option>
-          <option>Oldest First</option>
-        </select>*/}
         <button
             className="btn btn-outline-secondary d-flex align-items-center"
             onClick={toggleView}
@@ -69,15 +75,14 @@ const HomePage = () => {
         </button>
       </section>
 
+      <h3 className="mb-3">
+        {tagFilter ? `Showing ${tagFilter} Articles` : 'All Articles'}
+      </h3>
+
       <div className={`row ${viewMode === 'grid' ? 'row-cols-1 row-cols-md-2 row-cols-lg-4' : 'row-cols-1'}`}>
         {paginatedArticles.map((article, idx) => (
           <div key={idx} className="col">
             <div className="card article-card">
-              {/* <img
-                src={article.image_url || 'https://via.placeholder.com/400x200'}
-                className="card-img-top thumbnail"
-                alt={article.title}
-              /> */}
               <div className="card-body article-body">
                 <h3 className="card-title">{article.title}</h3>
                 <div className="meta">
@@ -122,7 +127,6 @@ const HomePage = () => {
           </ul>
         </nav>
       )}
-
 
       {showModal && (
         <div className="modal fade show" style={{ display: 'block', background: 'rgba(0,0,0,0.5)' }}>
