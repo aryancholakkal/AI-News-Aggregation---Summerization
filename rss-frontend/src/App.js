@@ -12,6 +12,10 @@ function App() {
         <h2>RSS Feed Summarizer</h2>
         <nav>
           <Link to="/">Home</Link>
+          <Link to="/?tag=AI">AI</Link>
+          <Link to="/?tag=New%20in%20Tech">New in Tech</Link>
+          <Link to="/?tag=Business">Business</Link>
+          <Link to="/?tag=Games%2FEntertainment">Games/Entertainment</Link>
           <Link to="/feeds">My Feeds</Link>
         </nav>
       </header>
