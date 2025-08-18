@@ -42,7 +42,7 @@ default = {
     'api_key':os.environ.get("OPENAI_API_KEY",""),
     'model': os.environ.get("FEEDSUMMARIZER_MODEL", "gpt-3.5-turbo"),
     'system': os.environ.get("FEEDSUMMARIZER_SYSTEM", "You are an expert summarizer."),
-    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter and categorize it into one of the following categories: AI, New in Tech, Business, Games/Entertainment.Return the response in the following JSON format only and do NOT include any markdown or escape characters inside it :{\"summary\": \"Your summary here\", \"tag\": \"Category\"}"),
+    'instruction': os.environ.get("FEEDSUMMARIZER_INSTRUCTION", "Summarize this article into a short, punchy tech fact (max 2 sentences) to put in a newsletter, prioritizing the most important information first and then adding supporting details (inverted pyramid style). Categorize it into one of the following categories: AI, New in Tech, Business, Games/Entertainment. Return the response in the following JSON format only and do NOT include any markdown or escape characters inside it :{\"summary\": \"Your summary here\", \"tag\": \"Category\"}"),
     'maximum': int(os.environ.get("FEEDSUMMARIZER_MAX_ARTICLES", "10")),
     'dyk_prompt': os.environ.get("FEEDSUMMARIZER_DYK_INSTRUCTION","Convert the following article into a single-sentence 'Did you know...' style fact. Be fun, factual, and concise."),
     'time_lapse': int(os.environ.get("FEEDSUMMARIZER_TIME_LAPSE", "86400"))
