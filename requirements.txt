@@ -1,4 +1,4 @@
 requests
 feedparser
-BeautifulSoup
+BeautifulSoup4
 uv == 0.8.4
