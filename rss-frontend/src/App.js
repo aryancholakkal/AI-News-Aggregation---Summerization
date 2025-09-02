@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <header className="page-header">
-        <h2>RSS Feed Summarizer</h2>
+        <h2>Briefly</h2>
         <nav>
           <Link to="/">Home</Link>
           <Link to="/?tag=AI">AI</Link>
