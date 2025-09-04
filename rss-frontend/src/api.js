@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL:'http://localhost:8000/api',
+    baseURL:'https://4bb48a35-d1a4-43d2-88cf-59c464af94f1-dev.e1-eu-north-azure.choreoapis.dev/default/briefly-backend/v1.0',
 });
 
 
